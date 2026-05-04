@@ -1,0 +1,3120 @@
+{
+  "timestamp": "20260417_171850",
+  "config": {
+    "match_threshold": 0.7,
+    "k_values": [
+      5,
+      10
+    ],
+    "ollama_model": "qwen2.5:7b"
+  },
+  "global_metrics": {
+    "n_questions": 10,
+    "HitRate": 0.7,
+    "MRR": 0.57,
+    "Recall@5": 0.1199,
+    "Precision@5": 0.3,
+    "F1@5": 0.1685,
+    "Recall@10": 0.1819,
+    "Precision@10": 0.23,
+    "F1@10": 0.1999,
+    "total_not_found": 61,
+    "failure_causes": {
+      "not_in_db_or_naming": 48,
+      "low_rank": 9,
+      "partial_match": 4
+    }
+  },
+  "per_question": [
+    {
+      "id": 1,
+      "query": "secteur privé, partenariat public-privé, cadres stratégiques, développement économique, réformes publiques, investissement, gouvernance",
+      "expected_count": 16,
+      "expected_projects": [
+        "Elaboration du cadre de développement des compétences numériques en république du Congo",
+        "Appui à la préparation et à l'animation du Dialogue Public-Privé de l'Innovation pour la République Tunisienne (« Les Assises de l’Innovation »)",
+        "Dialogue Public Privé sur le Climat des Affaires et implication du secteur privé dans l'initiative Compact with Africa",
+        "Assistance pour la conception et la mise en œuvre de réformes d'urgence en Tunisie - Delivery unit",
+        "Elaboration d'une feuille de route stratégique pour le développement des industries culturelles et créatives",
+        "Mise en place d'un système de qualité pour les services publics sociaux",
+        "GIZ - Analyse du Cadre d’Investissement de l’Hydrogène Vert et ses dérivés en Tunisie",
+        "Évaluation du cadre de l’Entrepreneuriat Féminin",
+        "Plan opérationnel de la stratégie nationale de l'emploi et intégration dans le plan quinquennal",
+        "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+        "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030",
+        "Assistance dans l'enquête parlementaire pour l'évaluation financière et juridique des partenariats publics privés",
+        "Convergence des Instances d'investissement en Tunisie (APII, APIA, ONTT, ONA, FIPA)",
+        "Assistance au design de l’Instance Nationale de l’Investissement (TIA)",
+        "Réforme du cadre institutionnel d’investissement en Tunisie (phase de diagnostic, benchmark et scénarios)",
+        "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique"
+      ],
+      "retrieved_count": 8,
+      "retrieved_detail": [
+        {
+          "titre": "Réformes économiques d’urgence en mode dialogue public-public",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 77.7
+        },
+        {
+          "titre": "Dialogue public-privé (textile/pharma)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 67.6
+        },
+        {
+          "titre": "Définition des réformes structurelles et économiques et élaboration du nouveau code d’investissement",
+          "annee": "2014-2015",
+          "pays": "Tunisie",
+          "pertinence": 53.5
+        },
+        {
+          "titre": "Stratégie nationale d’amélioration du climat des affaires",
+          "annee": "2016-2017",
+          "pays": "Tunisie",
+          "pertinence": 48.5
+        },
+        {
+          "titre": "Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+          "annee": "2017",
+          "pays": "Tunisie",
+          "pertinence": 47.8
+        },
+        {
+          "titre": "Évaluation universités tunisiennes",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 34.9
+        },
+        {
+          "titre": "Assistance au design, organisation et dimensionnement de l’Instance Nationale de l’Investissement (TIA)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 34.5
+        },
+        {
+          "titre": "Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social",
+          "annee": "2014-2015",
+          "pays": "Tunisie",
+          "pertinence": 5.3
+        }
+      ],
+      "matching": {
+        "Elaboration du cadre de développement des compétences numériques en république du Congo": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Appui à la préparation et à l'animation du Dialogue Public-Privé de l'Innovation pour la République Tunisienne (« Les Assises de l’Innovation »)": {
+          "matched": true,
+          "best_match": "[2] Dialogue public-privé (textile/pharma)",
+          "score": 0.85,
+          "reason": "Dialogue public-privé Tunisien"
+        },
+        "Dialogue Public Privé sur le Climat des Affaires et implication du secteur privé dans l'initiative Compact with Africa": {
+          "matched": true,
+          "best_match": "[4] Stratégie nationale d'amélioration du climat des affaires",
+          "score": 0.85,
+          "reason": "Amélioration du climat des affaires"
+        },
+        "Assistance pour la conception et la mise en œuvre de réformes d'urgence en Tunisie - Delivery unit": {
+          "matched": true,
+          "best_match": "[1] Réformes économiques d’urgence en mode dialogue public-public",
+          "score": 0.85,
+          "reason": "Réformes d'urgence"
+        },
+        "Elaboration d'une feuille de route stratégique pour le développement des industries culturelles et créatives": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Mise en place d'un système de qualité pour les services publics sociaux": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "GIZ - Analyse du Cadre d’Investissement de l’Hydrogène Vert et ses dérivés en Tunisie": {
+          "matched": true,
+          "best_match": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+          "score": 0.85,
+          "reason": "Analyse du cadre d’investissement"
+        },
+        "Évaluation du cadre de l’Entrepreneuriat Féminin": {
+          "matched": true,
+          "best_match": "[6] Évaluation universités tunisiennes",
+          "score": 0.85,
+          "reason": "Evaluation"
+        },
+        "Plan opérationnel de la stratégie nationale de l'emploi et intégration dans le plan quinquennal": {
+          "matched": true,
+          "best_match": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+          "score": 0.85,
+          "reason": "Dialogue public-privé"
+        },
+        "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies": {
+          "matched": true,
+          "best_match": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+          "score": 0.85,
+          "reason": "Dialogue public-privé"
+        },
+        "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030": {
+          "matched": true,
+          "best_match": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+          "score": 0.85,
+          "reason": "Dialogue public-privé"
+        },
+        "Assistance dans l'enquête parlementaire pour l'évaluation financière et juridique des partenariats publics privés": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Convergence des Instances d'investissement en Tunisie (APII, APIA, ONTT, ONA, FIPA)": {
+          "matched": true,
+          "best_match": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+          "score": 0.85,
+          "reason": "Instance Nationale de l’Investissement"
+        },
+        "Assistance au design de l’Instance Nationale de l’Investissement (TIA)": {
+          "matched": true,
+          "best_match": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+          "score": 1.0,
+          "reason": "Exact match"
+        },
+        "Réforme du cadre institutionnel d’investissement en Tunisie (phase de diagnostic, benchmark et scénarios)": {
+          "matched": true,
+          "best_match": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+          "score": 0.85,
+          "reason": "Réforme du cadre institutionnel"
+        },
+        "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique": {
+          "matched": true,
+          "best_match": "[2] Dialogue public-privé (textile/pharma)",
+          "score": 0.85,
+          "reason": "Dialogue public-privé"
+        }
+      },
+      "metrics": {
+        "MRR": 1.0,
+        "HitRate": 1,
+        "Recall@5": 0.1875,
+        "Precision@5": 0.6,
+        "F1@5": 0.2857,
+        "Recall@10": 0.3125,
+        "Precision@10": 0.5,
+        "F1@10": 0.3846,
+        "n_expected": 16,
+        "n_retrieved": 8,
+        "n_matched": 12
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Appui à la préparation et à l'animation du Dialogue Public-Privé de l'Innovation pour la République Tunisienne (« Les Assises de l’Innovation »)",
+            "found_as": "[2] Dialogue public-privé (textile/pharma)",
+            "position": -1
+          },
+          {
+            "project": "Dialogue Public Privé sur le Climat des Affaires et implication du secteur privé dans l'initiative Compact with Africa",
+            "found_as": "[4] Stratégie nationale d'amélioration du climat des affaires",
+            "position": -1
+          },
+          {
+            "project": "Assistance pour la conception et la mise en œuvre de réformes d'urgence en Tunisie - Delivery unit",
+            "found_as": "[1] Réformes économiques d’urgence en mode dialogue public-public",
+            "position": -1
+          },
+          {
+            "project": "GIZ - Analyse du Cadre d’Investissement de l’Hydrogène Vert et ses dérivés en Tunisie",
+            "found_as": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+            "position": -1
+          },
+          {
+            "project": "Évaluation du cadre de l’Entrepreneuriat Féminin",
+            "found_as": "[6] Évaluation universités tunisiennes",
+            "position": -1
+          },
+          {
+            "project": "Plan opérationnel de la stratégie nationale de l'emploi et intégration dans le plan quinquennal",
+            "found_as": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+            "position": -1
+          },
+          {
+            "project": "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+            "found_as": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+            "position": -1
+          },
+          {
+            "project": "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030",
+            "found_as": "[13] Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+            "position": -1
+          },
+          {
+            "project": "Convergence des Instances d'investissement en Tunisie (APII, APIA, ONTT, ONA, FIPA)",
+            "found_as": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+            "position": -1
+          },
+          {
+            "project": "Assistance au design de l’Instance Nationale de l’Investissement (TIA)",
+            "found_as": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+            "position": -1
+          },
+          {
+            "project": "Réforme du cadre institutionnel d’investissement en Tunisie (phase de diagnostic, benchmark et scénarios)",
+            "found_as": "[7] Assistance au design, organisation et dimensionnement de l'Instance Nationale de l’Investissement (TIA)",
+            "position": -1
+          },
+          {
+            "project": "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique",
+            "found_as": "[2] Dialogue public-privé (textile/pharma)",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Elaboration du cadre de développement des compétences numériques en république du Congo",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Elaboration d'une feuille de route stratégique pour le développement des industries culturelles et créatives",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Mise en place d'un système de qualité pour les services publics sociaux",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Assistance dans l'enquête parlementaire pour l'évaluation financière et juridique des partenariats publics privés",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 769.05
+    },
+    {
+      "id": 2,
+      "query": "économie bleue, inclusion économique, stratégie d’investissement, investissement public/privé, développement durable, politiques publiques, études analytiques",
+      "expected_count": 10,
+      "expected_projects": [
+        "Création de la NHC, National Housing Company of Saudi Arabia",
+        "Réforme des subventions énergétiques dans les pays du CCG",
+        "Stratégie d'amélioration de l'EBITDA pour un groupe industriel de l'agroalimentaire en Afrique du Nord",
+        "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design",
+        "Evaluation du marché des services financiers en Tunisie",
+        "Analyse de l'opportunité des paiements numériques dans les chaînes de valeur agricoles en Tunisie",
+        "Développement de l'industrie 'Off-shore' pour la création de 150 mille emplois en 10 ans",
+        "Création d'une société de gestion d'actifs pour les fonds de dotation (Awqaf)",
+        "Développement du plan stratégique 2020-2024 du Groupe BSiC",
+        "Assistance aux travaux d'enquête parlementaire pour l'évaluation des partenariats public-privé"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Stratégie nationale d’amélioration du climat des affaires",
+          "annee": "2016-2017",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Analyse secteur financier & inclusion financière",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 81.3
+        },
+        {
+          "titre": "Plan stratégique pour acteur NTIC",
+          "annee": "2013",
+          "pays": "Région MENA",
+          "pertinence": 76.1
+        },
+        {
+          "titre": "Convergence des institutions et agences publiques en charge de l’investissement (APII, APIA, ONTT, ONA, FIPA)",
+          "annee": "2016-2018",
+          "pays": "Tunisie",
+          "pertinence": 70.3
+        },
+        {
+          "titre": "Diagnostic organisationnel et outils de suivi des investissements",
+          "annee": "2024-2025",
+          "pays": "Mauritanie",
+          "pertinence": 66.1
+        },
+        {
+          "titre": "Formulation de la Stratégie Nationale pour l’Emploi",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 61.2
+        },
+        {
+          "titre": "Définition d’une stratégie d’investissement pour un fonds d’investissement spécialisé dans le tourisme",
+          "annee": "2013",
+          "pays": "Tunisie",
+          "pertinence": 58.7
+        },
+        {
+          "titre": "Enquête parlementaire sur PPP (Mauritanie)",
+          "annee": "2020",
+          "pays": "Mauritanie",
+          "pertinence": 57.6
+        },
+        {
+          "titre": "Établissement d’un plan d’investissement dans le secteur des supermarchés",
+          "annee": "2016",
+          "pays": "Région MENA",
+          "pertinence": 54.6
+        },
+        {
+          "titre": "Étude stratégique cliniques privées",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 53.5
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 48.5
+        },
+        {
+          "titre": "Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "annee": "2022-2023",
+          "pays": "Tunisie",
+          "pertinence": 43.3
+        },
+        {
+          "titre": "Actualisation Stratégie Nationale pour l’Emploi",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 43.1
+        },
+        {
+          "titre": "Plans marketing & communication inclusion financière",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 40.5
+        },
+        {
+          "titre": "Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+          "annee": "2016",
+          "pays": "Un pays membre du Conseil de Coopération du Golfe",
+          "pertinence": 38.9
+        },
+        {
+          "titre": "Partenariats innovants en tourisme durable",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 38.9
+        },
+        {
+          "titre": "Stratégie investissement industrie pharmaceutique",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 33.6
+        },
+        {
+          "titre": "Définition des réformes structurelles et économiques et élaboration du nouveau code d’investissement",
+          "annee": "2014-2015",
+          "pays": "Tunisie",
+          "pertinence": 32.2
+        },
+        {
+          "titre": "Dialogue public-privé (textile/pharma)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 8.3
+        },
+        {
+          "titre": "Dialogue Public-Privé – Assises de l’Innovation",
+          "annee": "2014",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Création de la NHC, National Housing Company of Saudi Arabia": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Réforme des subventions énergétiques dans les pays du CCG": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Stratégie d'amélioration de l'EBITDA pour un groupe industriel de l'agroalimentaire en Afrique du Nord": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Evaluation du marché des services financiers en Tunisie": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Analyse de l'opportunité des paiements numériques dans les chaînes de valeur agricoles en Tunisie": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Développement de l'industrie 'Off-shore' pour la création de 150 mille emplois en 10 ans": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Création d'une société de gestion d'actifs pour les fonds de dotation (Awqaf)": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Développement du plan stratégique 2020-2024 du Groupe BSiC": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        },
+        "Assistance aux travaux d'enquête parlementaire pour l'évaluation des partenariats public-privé": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "parsing LLM échoué"
+        }
+      },
+      "metrics": {
+        "MRR": 0.0,
+        "HitRate": 0,
+        "Recall@5": 0.0,
+        "Precision@5": 0.0,
+        "F1@5": 0.0,
+        "Recall@10": 0.0,
+        "Precision@10": 0.0,
+        "F1@10": 0.0,
+        "n_expected": 10,
+        "n_retrieved": 20,
+        "n_matched": 0
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [],
+        "not_found": [
+          {
+            "project": "Création de la NHC, National Housing Company of Saudi Arabia",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Réforme des subventions énergétiques dans les pays du CCG",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Stratégie d'amélioration de l'EBITDA pour un groupe industriel de l'agroalimentaire en Afrique du Nord",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Evaluation du marché des services financiers en Tunisie",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Analyse de l'opportunité des paiements numériques dans les chaînes de valeur agricoles en Tunisie",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Développement de l'industrie 'Off-shore' pour la création de 150 mille emplois en 10 ans",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Création d'une société de gestion d'actifs pour les fonds de dotation (Awqaf)",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Développement du plan stratégique 2020-2024 du Groupe BSiC",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Assistance aux travaux d'enquête parlementaire pour l'évaluation des partenariats public-privé",
+            "reason": "parsing LLM échoué",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 949.05
+    },
+    {
+      "id": 3,
+      "query": "gender and climate, climate finance, training, curriculum development, stakeholder engagement, technical assistance, monitoring, research publications",
+      "expected_count": 11,
+      "expected_projects": [
+        "Capacity building of civil society and partnership for the organization of H2Vert project activities",
+        "National Assessment of the Framework Conditions for Women's Entrepreneurship Development in Tunisia",
+        "Development of an Arab entrepreneurship fund concept for small and medium-sized businesses",
+        "Development of an action plan for the National Women's Entrepreneurship Program",
+        "Design and development of an online learning platform",
+        "Structuring and launching of a new domestic investment fund dedicated to the tourism and leisure sector",
+        "Analysis of the Green Hydrogen Investment Framework and its derivatives in Tunisia",
+        "Development of the digital skills development framework in the Republic of Congo",
+        "Elaboration of job/skills and curriculum/evaluation referential in four agricultural engineering disciplines",
+        "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+        "Africa Country and Climate Development report – Green Surveys"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Stratégie nationale d’amélioration du climat des affaires",
+          "annee": "2016-2017",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Évaluation cadre entrepreneuriat féminin",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 86.7
+        },
+        {
+          "titre": "Plateforme e-learning pour académie de formation",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 73.7
+        },
+        {
+          "titre": "Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "annee": "2022-2023",
+          "pays": "Tunisie",
+          "pertinence": 72.0
+        },
+        {
+          "titre": "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+          "annee": "2013",
+          "pays": "Moyen-Orient",
+          "pertinence": 71.0
+        },
+        {
+          "titre": "Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+          "annee": "2023",
+          "pays": "Côte d’Ivoire",
+          "pertinence": 64.5
+        },
+        {
+          "titre": "Plan stratégique pour acteur NTIC",
+          "annee": "2013",
+          "pays": "Région MENA",
+          "pertinence": 60.1
+        },
+        {
+          "titre": "Dialogue public-privé (textile/pharma)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 58.2
+        },
+        {
+          "titre": "Évaluation sectorielle et sélection de 2 programmes techniques dans les secteurs de la santé",
+          "annee": "2015",
+          "pays": "Tunisie",
+          "pertinence": 56.8
+        },
+        {
+          "titre": "Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+          "annee": "2016",
+          "pays": "Un pays membre du Conseil de Coopération du Golfe",
+          "pertinence": 53.3
+        },
+        {
+          "titre": "Elaboration du Plan stratégique 2023-2027",
+          "annee": "2024",
+          "pays": "Tunisie",
+          "pertinence": 49.5
+        },
+        {
+          "titre": "Assistance au design, organisation et dimensionnement de l’Instance Nationale de l’Investissement (TIA)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 45.4
+        },
+        {
+          "titre": "Évaluation sectorielle TIC – sélection programme",
+          "annee": "2015",
+          "pays": "MENA",
+          "pertinence": 44.0
+        },
+        {
+          "titre": "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 35.4
+        },
+        {
+          "titre": "Réformes économiques d’urgence en mode dialogue public-public",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 28.9
+        },
+        {
+          "titre": "Plans marketing & communication inclusion financière",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 24.5
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 24.0
+        },
+        {
+          "titre": "Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+          "annee": "2017",
+          "pays": "Tunisie",
+          "pertinence": 16.0
+        },
+        {
+          "titre": "Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 5.5
+        },
+        {
+          "titre": "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+          "annee": "2025",
+          "pays": "Togo",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Capacity building of civil society and partnership for the organization of H2Vert project activities": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet similaire trouvé"
+        },
+        "National Assessment of the Framework Conditions for Women's Entrepreneurship Development in Tunisia": {
+          "matched": true,
+          "best_match": "[2] Évaluation cadre entrepreneuriat féminin",
+          "score": 0.85,
+          "reason": "Évaluation cadre entrepreneuriat féminin"
+        },
+        "Development of an Arab entrepreneurship fund concept for small and medium-sized businesses": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet similaire trouvé"
+        },
+        "Development of an action plan for the National Women's Entrepreneurship Program": {
+          "matched": true,
+          "best_match": "[2] Évaluation cadre entrepreneuriat féminin",
+          "score": 0.85,
+          "reason": "Programme d'entrepreneuriat féminin"
+        },
+        "Design and development of an online learning platform": {
+          "matched": true,
+          "best_match": "[3] Plateforme e-learning pour académie de formation",
+          "score": 0.85,
+          "reason": "Plateforme e-learning"
+        },
+        "Structuring and launching of a new domestic investment fund dedicated to the tourism and leisure sector": {
+          "matched": false,
+          "best_match": "[18] Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+          "score": 0.65,
+          "reason": "Nouvelle institution pour promotion des investissements"
+        },
+        "Analysis of the Green Hydrogen Investment Framework and its derivatives in Tunisia": {
+          "matched": true,
+          "best_match": "[6] Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+          "score": 0.85,
+          "reason": "Enquête sur le changement climatique"
+        },
+        "Development of the digital skills development framework in the Republic of Congo": {
+          "matched": true,
+          "best_match": "[14] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "score": 0.7,
+          "reason": "Transformation digitale"
+        },
+        "Elaboration of job/skills and curriculum/evaluation referential in four agricultural engineering disciplines": {
+          "matched": true,
+          "best_match": "[19] Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+          "score": 0.85,
+          "reason": "Référentiels emploi et compétences"
+        },
+        "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments": {
+          "matched": false,
+          "best_match": "[7] Plan stratégique pour acteur NTIC",
+          "score": 0.65,
+          "reason": "Plan stratégique NTIC"
+        },
+        "Africa Country and Climate Development report – Green Surveys": {
+          "matched": true,
+          "best_match": "[6] Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+          "score": 0.85,
+          "reason": "Enquêtes climatiques"
+        }
+      },
+      "metrics": {
+        "MRR": 0.5,
+        "HitRate": 1,
+        "Recall@5": 0.1818,
+        "Precision@5": 0.4,
+        "F1@5": 0.25,
+        "Recall@10": 0.2727,
+        "Precision@10": 0.3,
+        "F1@10": 0.2857,
+        "n_expected": 11,
+        "n_retrieved": 20,
+        "n_matched": 7
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "National Assessment of the Framework Conditions for Women's Entrepreneurship Development in Tunisia",
+            "found_as": "[2] Évaluation cadre entrepreneuriat féminin",
+            "position": -1
+          },
+          {
+            "project": "Development of an action plan for the National Women's Entrepreneurship Program",
+            "found_as": "[2] Évaluation cadre entrepreneuriat féminin",
+            "position": -1
+          },
+          {
+            "project": "Design and development of an online learning platform",
+            "found_as": "[3] Plateforme e-learning pour académie de formation",
+            "position": -1
+          },
+          {
+            "project": "Analysis of the Green Hydrogen Investment Framework and its derivatives in Tunisia",
+            "found_as": "[6] Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+            "position": -1
+          },
+          {
+            "project": "Development of the digital skills development framework in the Republic of Congo",
+            "found_as": "[14] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+            "position": -1
+          },
+          {
+            "project": "Elaboration of job/skills and curriculum/evaluation referential in four agricultural engineering disciplines",
+            "found_as": "[19] Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+            "position": -1
+          },
+          {
+            "project": "Africa Country and Climate Development report – Green Surveys",
+            "found_as": "[6] Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Capacity building of civil society and partnership for the organization of H2Vert project activities",
+            "reason": "Aucun projet similaire trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Development of an Arab entrepreneurship fund concept for small and medium-sized businesses",
+            "reason": "Aucun projet similaire trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Structuring and launching of a new domestic investment fund dedicated to the tourism and leisure sector",
+            "reason": "Nouvelle institution pour promotion des investissements",
+            "best_llm": "[18] Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+            "score": 0.65,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+            "reason": "Plan stratégique NTIC",
+            "best_llm": "[7] Plan stratégique pour acteur NTIC",
+            "score": 0.65,
+            "probable_cause": "low_rank"
+          }
+        ]
+      },
+      "elapsed_s": 651.9
+    },
+    {
+      "id": 4,
+      "query": "digital payments, retail sector, digital literacy, financial inclusion, market research, studies, regulatory analysis, policy analysis",
+      "expected_count": 11,
+      "expected_projects": [
+        "Establishment of an investment plan in the supermarket sector",
+        "Development Framework for Digital Skills in the Republic of Congo",
+        "Strategic review and support for the operationalization of the activities of the subsidiary specializing in digital transformation and innovation",
+        "Establishment of an investment plan in the retail sector",
+        "Definition of an expansion target in North Africa or Sub-Saharan Africa for a mobile terminal operator and establishment of a business plan",
+        "Operational plan of the national employment strategy and integration into the five-year plan",
+        "Deep dive and market assessment of cashew nut and fertilizer value chains in Togo",
+        "Study of the leasing market for agricultural and medical equipment in Togo",
+        "Support to the preparation and facilitation of the Innovation Public-Private Dialogue for the Republic of Tunisia",
+        "Assessment of the opportunity and feasibility study for the creation of a commodities exchange in Tunisia",
+        "Major update of the Amplitude of the integrated central banking system from version 9 to version 11"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Protection des usagers des systèmes et moyens de paiement",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Digitalisation paiements & financement chaînes agricoles",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 79.3
+        },
+        {
+          "titre": "Analyse secteur financier & inclusion financière",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 74.2
+        },
+        {
+          "titre": "Plans marketing & communication inclusion financière",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 54.4
+        },
+        {
+          "titre": "Revue stratégie filiale transformation digitale",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 51.6
+        },
+        {
+          "titre": "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 46.8
+        },
+        {
+          "titre": "Stratégie marketplace produits agricoles",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 41.7
+        },
+        {
+          "titre": "Étude sectorielle dattes algériennes",
+          "annee": "2022",
+          "pays": "Algérie",
+          "pertinence": 38.2
+        },
+        {
+          "titre": "Étude du marché du leasing équipements agricoles et médicaux",
+          "annee": "2023",
+          "pays": "Togo",
+          "pertinence": 37.9
+        },
+        {
+          "titre": "Programme de dématérialisation des processus clientèle (particuliers)",
+          "annee": "2015-2016",
+          "pays": "France",
+          "pertinence": 37.5
+        },
+        {
+          "titre": "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+          "annee": "2025",
+          "pays": "Togo",
+          "pertinence": 35.6
+        },
+        {
+          "titre": "Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+          "annee": "N/A",
+          "pays": "Togo",
+          "pertinence": 25.6
+        },
+        {
+          "titre": "Plateforme e-commerce Mashmoom",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 22.8
+        },
+        {
+          "titre": "Étude faisabilité bourse de commodités",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 21.7
+        },
+        {
+          "titre": "Enquête de satisfaction client B2B pour un acteur leader du secteur du recyclage",
+          "annee": "2013",
+          "pays": "Tunisie",
+          "pertinence": 19.5
+        },
+        {
+          "titre": "Développement d'une plateforme de e-commerce (OFCT)",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 12.7
+        },
+        {
+          "titre": "Due diligence commerciale sur entreprises boissons et snacks",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 5.6
+        },
+        {
+          "titre": "Mise à jour majeure de l'Amplitude du système bancaire central intégré (v9 → v11)",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 4.9
+        },
+        {
+          "titre": "Définition du modèle opérationnel cible et accompagnement métier dans la migration du SI",
+          "annee": "2017-2018",
+          "pays": "Egypte",
+          "pertinence": 4.5
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Establishment of an investment plan in the supermarket sector": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun correspondance"
+        },
+        "Development Framework for Digital Skills in the Republic of Congo": {
+          "matched": true,
+          "best_match": "[6] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "score": 0.85,
+          "reason": "Framework pour la digitalisation"
+        },
+        "Strategic review and support for the operationalization of the activities of the subsidiary specializing in digital transformation and innovation": {
+          "matched": true,
+          "best_match": "[5] Revue stratégie filiale transformation digitale",
+          "score": 0.85,
+          "reason": "Révision de la stratégie de la filiale"
+        },
+        "Establishment of an investment plan in the retail sector": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun correspondance"
+        },
+        "Definition of an expansion target in North Africa or Sub-Saharan Africa for a mobile terminal operator and establishment of a business plan": {
+          "matched": true,
+          "best_match": "[9] Étude du marché du leasing équipements agricoles et médicaux",
+          "score": 0.7,
+          "reason": "Expansion vers l'Afrique"
+        },
+        "Operational plan of the national employment strategy and integration into the five-year plan": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun correspondance"
+        },
+        "Deep dive and market assessment of cashew nut and fertilizer value chains in Togo": {
+          "matched": true,
+          "best_match": "[12] Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+          "score": 0.95,
+          "reason": "Étude approfondie et évaluation"
+        },
+        "Study of the leasing market for agricultural and medical equipment in Togo": {
+          "matched": true,
+          "best_match": "[9] Étude du marché du leasing équipements agricoles et médicaux",
+          "score": 0.85,
+          "reason": "Étude du marché du leasing"
+        },
+        "Support to the preparation and facilitation of the Innovation Public-Private Dialogue for the Republic of Tunisia": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun correspondance"
+        },
+        "Assessment of the opportunity and feasibility study for the creation of a commodities exchange in Tunisia": {
+          "matched": true,
+          "best_match": "[14] Étude faisabilité bourse de commodités",
+          "score": 0.85,
+          "reason": "Étude de faisabilité"
+        },
+        "Major update of the Amplitude of the integrated central banking system from version 9 to version 11": {
+          "matched": true,
+          "best_match": "[18] Mise à jour majeure de l'Amplitude du système bancaire central intégré (v9 → v11)",
+          "score": 0.95,
+          "reason": "Mise à jour du système bancaire"
+        }
+      },
+      "metrics": {
+        "MRR": 0.2,
+        "HitRate": 1,
+        "Recall@5": 0.0909,
+        "Precision@5": 0.2,
+        "F1@5": 0.125,
+        "Recall@10": 0.2727,
+        "Precision@10": 0.3,
+        "F1@10": 0.2857,
+        "n_expected": 11,
+        "n_retrieved": 20,
+        "n_matched": 7
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Development Framework for Digital Skills in the Republic of Congo",
+            "found_as": "[6] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+            "position": -1
+          },
+          {
+            "project": "Strategic review and support for the operationalization of the activities of the subsidiary specializing in digital transformation and innovation",
+            "found_as": "[5] Revue stratégie filiale transformation digitale",
+            "position": -1
+          },
+          {
+            "project": "Definition of an expansion target in North Africa or Sub-Saharan Africa for a mobile terminal operator and establishment of a business plan",
+            "found_as": "[9] Étude du marché du leasing équipements agricoles et médicaux",
+            "position": -1
+          },
+          {
+            "project": "Deep dive and market assessment of cashew nut and fertilizer value chains in Togo",
+            "found_as": "[12] Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+            "position": -1
+          },
+          {
+            "project": "Study of the leasing market for agricultural and medical equipment in Togo",
+            "found_as": "[9] Étude du marché du leasing équipements agricoles et médicaux",
+            "position": -1
+          },
+          {
+            "project": "Assessment of the opportunity and feasibility study for the creation of a commodities exchange in Tunisia",
+            "found_as": "[14] Étude faisabilité bourse de commodités",
+            "position": -1
+          },
+          {
+            "project": "Major update of the Amplitude of the integrated central banking system from version 9 to version 11",
+            "found_as": "[18] Mise à jour majeure de l'Amplitude du système bancaire central intégré (v9 → v11)",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Establishment of an investment plan in the supermarket sector",
+            "reason": "Aucun correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Establishment of an investment plan in the retail sector",
+            "reason": "Aucun correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Operational plan of the national employment strategy and integration into the five-year plan",
+            "reason": "Aucun correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Support to the preparation and facilitation of the Innovation Public-Private Dialogue for the Republic of Tunisia",
+            "reason": "Aucun correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 469.66
+    },
+    {
+      "id": 5,
+      "query": "e-mobility, renewable energy, roadmaps, public policy, market analysis, PPP",
+      "expected_count": 8,
+      "expected_projects": [
+        "Assistance in parliamentary inquiry work for the evaluation of public-private partnerships",
+        "Energy subsidy reform in GCC country",
+        "Integration of the National Employment Strategy into the national planning process",
+        "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design for the management and monitoring of the two strategies",
+        "Financial services market assessment in Tunisia",
+        "Scoping the opportunity for Digital Payments in the Agricultural value chains in Tunisia",
+        "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years",
+        "Establishing an Endowment (Awqaf) Asset Management Company (ACAP)"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Enquête parlementaire sur PPP (Mauritanie)",
+          "annee": "2020",
+          "pays": "Mauritanie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Évaluation cadre entrepreneuriat féminin",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 74.6
+        },
+        {
+          "titre": "Cadre investissement hydrogène vert",
+          "annee": "2024",
+          "pays": "Tunisie",
+          "pertinence": 64.8
+        },
+        {
+          "titre": "Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+          "annee": "2016",
+          "pays": "Un pays membre du Conseil de Coopération du Golfe",
+          "pertinence": 57.9
+        },
+        {
+          "titre": "Benchmark talents énergies renouvelables",
+          "annee": "N/A",
+          "pays": "Arabie Saoudite",
+          "pertinence": 51.7
+        },
+        {
+          "titre": "Études faisabilité mobilité électrique",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 51.6
+        },
+        {
+          "titre": "Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+          "annee": "N/A",
+          "pays": "Togo",
+          "pertinence": 50.8
+        },
+        {
+          "titre": "Revue stratégie filiale transformation digitale",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 49.5
+        },
+        {
+          "titre": "Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "annee": "2022-2023",
+          "pays": "Tunisie",
+          "pertinence": 46.5
+        },
+        {
+          "titre": "Enquête de satisfaction client B2B pour un acteur leader du secteur du recyclage",
+          "annee": "2013",
+          "pays": "Tunisie",
+          "pertinence": 44.9
+        },
+        {
+          "titre": "Étude faisabilité bourse de commodités",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 29.9
+        },
+        {
+          "titre": "Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)",
+          "annee": "2023",
+          "pays": "Côte d’Ivoire",
+          "pertinence": 28.7
+        },
+        {
+          "titre": "Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 27.8
+        },
+        {
+          "titre": "Feuille de route industries culturelles et créatives",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 25.3
+        },
+        {
+          "titre": "Due diligence transport & logistique",
+          "annee": "2024",
+          "pays": "Tunisie",
+          "pertinence": 20.3
+        },
+        {
+          "titre": "Définition de la note d’orientation et vision du plan de développement",
+          "annee": "2016",
+          "pays": "Tunisie",
+          "pertinence": 11.6
+        },
+        {
+          "titre": "Dialogue public-privé (textile/pharma)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 11.1
+        },
+        {
+          "titre": "Marché engrais organiques/chimiques",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 9.7
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 1.8
+        },
+        {
+          "titre": "Plans marketing & communication inclusion financière",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Assistance in parliamentary inquiry work for the evaluation of public-private partnerships": {
+          "matched": true,
+          "best_match": "[1] Enquête parlementaire sur PPP (Mauritanie)",
+          "score": 0.85,
+          "reason": "Évaluation de la parlementaire et des partenariats public-privé"
+        },
+        "Energy subsidy reform in GCC country": {
+          "matched": true,
+          "best_match": "[4] Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+          "score": 0.85,
+          "reason": "Réforme des subventions énergétiques dans un pays du GCC"
+        },
+        "Integration of the National Employment Strategy into the national planning process": {
+          "matched": false,
+          "best_match": "[9] Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "score": 0.6,
+          "reason": "Implémentation stratégique et processus national"
+        },
+        "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design for the management and monitoring of the two strategies": {
+          "matched": false,
+          "best_match": "[9] Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "score": 0.6,
+          "reason": "Gouvernance et information systèmes pour stratégies nationales"
+        },
+        "Financial services market assessment in Tunisia": {
+          "matched": true,
+          "best_match": "[13] Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement",
+          "score": 0.7,
+          "reason": "Évaluation des services financiers en Tunisie"
+        },
+        "Scoping the opportunity for Digital Payments in the Agricultural value chains in Tunisia": {
+          "matched": false,
+          "best_match": "[6] Études faisabilité mobilité électrique",
+          "score": 0.45,
+          "reason": "Opportunités de paiements numériques dans les chaînes d'agriculture tunisienne"
+        },
+        "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Establishing an Endowment (Awqaf) Asset Management Company (ACAP)": {
+          "matched": false,
+          "best_match": "[17] Dialogue public-privé (textile/pharma)",
+          "score": 0.3,
+          "reason": "Création d'une entreprise de gestion d'actifs pour un fonds de bienfaisance"
+        }
+      },
+      "metrics": {
+        "MRR": 1.0,
+        "HitRate": 1,
+        "Recall@5": 0.25,
+        "Precision@5": 0.4,
+        "F1@5": 0.3077,
+        "Recall@10": 0.25,
+        "Precision@10": 0.2,
+        "F1@10": 0.2222,
+        "n_expected": 8,
+        "n_retrieved": 20,
+        "n_matched": 3
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Assistance in parliamentary inquiry work for the evaluation of public-private partnerships",
+            "found_as": "[1] Enquête parlementaire sur PPP (Mauritanie)",
+            "position": -1
+          },
+          {
+            "project": "Energy subsidy reform in GCC country",
+            "found_as": "[4] Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+            "position": -1
+          },
+          {
+            "project": "Financial services market assessment in Tunisia",
+            "found_as": "[13] Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Integration of the National Employment Strategy into the national planning process",
+            "reason": "Implémentation stratégique et processus national",
+            "best_llm": "[9] Design et implémentation de mécanismes de coordination – Delivery Unit",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design for the management and monitoring of the two strategies",
+            "reason": "Gouvernance et information systèmes pour stratégies nationales",
+            "best_llm": "[9] Design et implémentation de mécanismes de coordination – Delivery Unit",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Scoping the opportunity for Digital Payments in the Agricultural value chains in Tunisia",
+            "reason": "Opportunités de paiements numériques dans les chaînes d'agriculture tunisienne",
+            "best_llm": "[6] Études faisabilité mobilité électrique",
+            "score": 0.45,
+            "probable_cause": "partial_match"
+          },
+          {
+            "project": "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Establishing an Endowment (Awqaf) Asset Management Company (ACAP)",
+            "reason": "Création d'une entreprise de gestion d'actifs pour un fonds de bienfaisance",
+            "best_llm": "[17] Dialogue public-privé (textile/pharma)",
+            "score": 0.3,
+            "probable_cause": "partial_match"
+          }
+        ]
+      },
+      "elapsed_s": 215.42
+    },
+    {
+      "id": 6,
+      "query": "survey, interviews, value chain analysis, strategic recommendations",
+      "expected_count": 12,
+      "expected_projects": [
+        "Deep Dive and Market Assessment of Cashew Nut and Fertilizer value chains in Togo",
+        "Study of the leasing market for agricultural and medical equipment in Togo",
+        "Sector study of Algerian dates",
+        "Feasibility study of index-based agricultural insurance for small farmers and agricultural MSMEs",
+        "Assessment of opportunities for digitalization of payments and improvement of access to financing in agricultural value chains in Tunisia",
+        "Development strategy for an agricultural products Marketplace",
+        "Commercial Due Diligence on a canned tuna player",
+        "Commercial Due Diligence on companies in the drinks and snacks sector",
+        "Organic and chemical fertilizer market analysis",
+        "Commercial due diligence for the acquisition of a company specializing in tomato processing",
+        "Study on the export and distribution of gourmet olive oil on the American market",
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Digitalisation paiements & financement chaînes agricoles",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+          "annee": "N/A",
+          "pays": "Togo",
+          "pertinence": 74.9
+        },
+        {
+          "titre": "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+          "annee": "2025",
+          "pays": "Togo",
+          "pertinence": 69.0
+        },
+        {
+          "titre": "Définition de la stratégie de diversification et de développement de la chaîne de valeur d’un groupe dans le secteur textile",
+          "annee": "2016-2017",
+          "pays": "Tunisie",
+          "pertinence": 59.4
+        },
+        {
+          "titre": "Évaluation cadre entrepreneuriat féminin",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 59.1
+        },
+        {
+          "titre": "Stratégie marketplace produits agricoles",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 58.9
+        },
+        {
+          "titre": "WP3 SmartGreenEcos Project (INTERREG NEXT MED)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 49.9
+        },
+        {
+          "titre": "Étude sectorielle dattes algériennes",
+          "annee": "2022",
+          "pays": "Algérie",
+          "pertinence": 46.8
+        },
+        {
+          "titre": "Analyse secteur financier & inclusion financière",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 42.5
+        },
+        {
+          "titre": "Enquête parlementaire sur PPP (Mauritanie)",
+          "annee": "2020",
+          "pays": "Mauritanie",
+          "pertinence": 39.6
+        },
+        {
+          "titre": "Étude stratégique cliniques privées",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 37.4
+        },
+        {
+          "titre": "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+          "annee": "2013",
+          "pays": "Moyen-Orient",
+          "pertinence": 35.0
+        },
+        {
+          "titre": "Assurance agricole indicielle (olives, dattes, céréales)",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 34.7
+        },
+        {
+          "titre": "Établissement d’un plan d’investissement dans le secteur des supermarchés",
+          "annee": "2016",
+          "pays": "Région MENA",
+          "pertinence": 33.4
+        },
+        {
+          "titre": "Étude stratégique pour l’ASSIDJE – sauvegarde de Djerba",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 30.3
+        },
+        {
+          "titre": "Définition des réformes structurelles et économiques et élaboration du nouveau code d’investissement",
+          "annee": "2014-2015",
+          "pays": "Tunisie",
+          "pertinence": 20.5
+        },
+        {
+          "titre": "Scénarios expansion – industriel acier (MENA)",
+          "annee": "2014-2015",
+          "pays": "Moyen-Orient",
+          "pertinence": 15.5
+        },
+        {
+          "titre": "Due diligence commerciale sur un acteur de conserves de thon",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 10.0
+        },
+        {
+          "titre": "Dispositif communication interne – BCT",
+          "annee": "2019-2020",
+          "pays": "Tunisie",
+          "pertinence": 3.7
+        },
+        {
+          "titre": "Développement services données satellitaires chaîne oléicole",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Deep Dive and Market Assessment of Cashew Nut and Fertilizer value chains in Togo": {
+          "matched": true,
+          "best_match": "[2] Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+          "score": 0.85,
+          "reason": "Évaluation du marché et chaîne de valeur"
+        },
+        "Study of the leasing market for agricultural and medical equipment in Togo": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Sector study of Algerian dates": {
+          "matched": true,
+          "best_match": "[8] Étude sectorielle dattes algériennes",
+          "score": 1.0,
+          "reason": "Étude sectorielle des dattes algériennes"
+        },
+        "Feasibility study of index-based agricultural insurance for small farmers and agricultural MSMEs": {
+          "matched": true,
+          "best_match": "[13] Assurance agricole indicielle (olives, dattes, céréales)",
+          "score": 0.85,
+          "reason": "Assurance agricole indicielle"
+        },
+        "Assessment of opportunities for digitalization of payments and improvement of access to financing in agricultural value chains in Tunisia": {
+          "matched": true,
+          "best_match": "[1] Digitalisation paiements & financement chaînes agricoles",
+          "score": 0.85,
+          "reason": "Digitalisation des paiements et financement"
+        },
+        "Development strategy for an agricultural products Marketplace": {
+          "matched": true,
+          "best_match": "[6] Stratégie marketplace produits agricoles",
+          "score": 1.0,
+          "reason": "Développement de la stratégie du marché des produits agricoles"
+        },
+        "Commercial Due Diligence on a canned tuna player": {
+          "matched": true,
+          "best_match": "[18] Due diligence commerciale sur un acteur de conserves de thon",
+          "score": 0.9,
+          "reason": "Due diligence commerciale"
+        },
+        "Commercial Due Diligence on companies in the drinks and snacks sector": {
+          "matched": true,
+          "best_match": "[14] Établissement d’un plan d’investissement dans le secteur des supermarchés",
+          "score": 0.7,
+          "reason": "Due diligence commerciale"
+        },
+        "Organic and chemical fertilizer market analysis": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Commercial due diligence for the acquisition of a company specializing in tomato processing": {
+          "matched": false,
+          "best_match": "[12] Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+          "score": 0.6,
+          "reason": "Due diligence stratégique"
+        },
+        "Study on the export and distribution of gourmet olive oil on the American market": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas d'équivalent trouvé"
+        },
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines": {
+          "matched": false,
+          "best_match": "[12] Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+          "score": 0.6,
+          "reason": "Formation professionnelle"
+        }
+      },
+      "metrics": {
+        "MRR": 1.0,
+        "HitRate": 1,
+        "Recall@5": 0.1667,
+        "Precision@5": 0.4,
+        "F1@5": 0.2353,
+        "Recall@10": 0.3333,
+        "Precision@10": 0.4,
+        "F1@10": 0.3636,
+        "n_expected": 12,
+        "n_retrieved": 20,
+        "n_matched": 7
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Deep Dive and Market Assessment of Cashew Nut and Fertilizer value chains in Togo",
+            "found_as": "[2] Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+            "position": -1
+          },
+          {
+            "project": "Sector study of Algerian dates",
+            "found_as": "[8] Étude sectorielle dattes algériennes",
+            "position": -1
+          },
+          {
+            "project": "Feasibility study of index-based agricultural insurance for small farmers and agricultural MSMEs",
+            "found_as": "[13] Assurance agricole indicielle (olives, dattes, céréales)",
+            "position": -1
+          },
+          {
+            "project": "Assessment of opportunities for digitalization of payments and improvement of access to financing in agricultural value chains in Tunisia",
+            "found_as": "[1] Digitalisation paiements & financement chaînes agricoles",
+            "position": -1
+          },
+          {
+            "project": "Development strategy for an agricultural products Marketplace",
+            "found_as": "[6] Stratégie marketplace produits agricoles",
+            "position": -1
+          },
+          {
+            "project": "Commercial Due Diligence on a canned tuna player",
+            "found_as": "[18] Due diligence commerciale sur un acteur de conserves de thon",
+            "position": -1
+          },
+          {
+            "project": "Commercial Due Diligence on companies in the drinks and snacks sector",
+            "found_as": "[14] Établissement d’un plan d’investissement dans le secteur des supermarchés",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Study of the leasing market for agricultural and medical equipment in Togo",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Organic and chemical fertilizer market analysis",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Commercial due diligence for the acquisition of a company specializing in tomato processing",
+            "reason": "Due diligence stratégique",
+            "best_llm": "[12] Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Study on the export and distribution of gourmet olive oil on the American market",
+            "reason": "Pas d'équivalent trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+            "reason": "Formation professionnelle",
+            "best_llm": "[12] Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          }
+        ]
+      },
+      "elapsed_s": 222.16
+    },
+    {
+      "id": 7,
+      "query": "survey, interviews, skills gap analysis, jobs gap analysis, employability, labour market diagnosis, curriculum reform, strategic recommendations",
+      "expected_count": 21,
+      "expected_projects": [
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+        "Socio-economic anchoring of French departments of Tunisian universities",
+        "Governance framework established for the national employment strategy and the national entrepreneurship strategy and the design of the information system for the management and monitoring of the two strategies",
+        "Operational plan of the national employment strategy and integration into the five-year plan",
+        "Evaluation of the human capital development system (higher education and professional training)",
+        "Reform of the study plan for degrees in economics and management for higher institutes of technological studies",
+        "Reform of the study plan for computer science degrees for higher institutes of technological studies",
+        "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+        "Assistance in diagnosing the employment market (Economy, Human Capital, Governance and Implementation)",
+        "Support for the formulation of the national employment strategy for 2030",
+        "Creation of a Digital Talent project to improve employability",
+        "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+        "Awareness raising and implementation of the ICT professions directory",
+        "Strategic Review and 3-year Action Plan for an NGO in the Employment and Training sector",
+        "Study on employment in small to medium-sized cities in Saudi Arabia",
+        "Development of a regional action plan for the development of employment opportunities in Saudi Arabia",
+        "Development of employment indicators as part of a National Development Plan",
+        "Definition of an EFE strategic plan",
+        "Retrospective evaluation of the Tunisian French partnership program for professional training",
+        "Evaluation of Tunisian universities for the Tunisian government",
+        "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Assistance diagnostic marché de l’emploi",
+          "annee": "2018-2019",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Diagnostics marché du travail (5 gouvernorats)",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 74.8
+        },
+        {
+          "titre": "Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+          "annee": "2019-2020",
+          "pays": "Tunisie",
+          "pertinence": 66.8
+        },
+        {
+          "titre": "Analyse des besoins dans le secteur des TIC",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 54.1
+        },
+        {
+          "titre": "Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 44.1
+        },
+        {
+          "titre": "Accompagnement du groupe pour le diagnostic et la préparation d’un plan stratégique à moyen terme",
+          "annee": "2019-2020",
+          "pays": "Tunisie, Sénégal, Mali, Tchad, Bénin, Côte d'Ivoire, Soudan",
+          "pertinence": 39.3
+        },
+        {
+          "titre": "Cadre investissement hydrogène vert",
+          "annee": "2024",
+          "pays": "Tunisie",
+          "pertinence": 37.5
+        },
+        {
+          "titre": "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+          "annee": "2013",
+          "pays": "Moyen-Orient",
+          "pertinence": 36.6
+        },
+        {
+          "titre": "Formulation de la Stratégie Nationale pour l’Emploi",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 27.2
+        },
+        {
+          "titre": "Formulation SNE à horizon 2030 (extension)",
+          "annee": "2018-2019",
+          "pays": "Tunisie",
+          "pertinence": 24.4
+        },
+        {
+          "titre": "Actualisation Stratégie Nationale pour l’Emploi",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 19.1
+        },
+        {
+          "titre": "Évaluation sectorielle et sélection de 2 programmes techniques dans les secteurs de la santé",
+          "annee": "2015",
+          "pays": "Tunisie",
+          "pertinence": 18.2
+        },
+        {
+          "titre": "Évaluation rapide impact COVID-19 sur emploi",
+          "annee": "2020",
+          "pays": "Tunisie",
+          "pertinence": 13.6
+        },
+        {
+          "titre": "Cadre compétences numériques – Congo",
+          "annee": "2023-2024",
+          "pays": "Congo",
+          "pertinence": 13.2
+        },
+        {
+          "titre": "Due diligence stratégique pour l'acquisition d'un acteur dans l'aviation civile au moyen orient",
+          "annee": "2013",
+          "pays": "Jordanie",
+          "pertinence": 9.5
+        },
+        {
+          "titre": "Réforme licences économie/gestion – ISET",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 9.4
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 9.2
+        },
+        {
+          "titre": "Scénarios expansion – industriel acier (MENA)",
+          "annee": "2014-2015",
+          "pays": "Moyen-Orient",
+          "pertinence": 5.3
+        },
+        {
+          "titre": "Due diligence commerciale pour l’acquisition d’un acteur régional dans le secteur cosmétique et des soins personnels",
+          "annee": "2021",
+          "pays": "Région MENA",
+          "pertinence": 3.5
+        },
+        {
+          "titre": "Plan stratégique pour la création d’une plateforme industrielle de cartonnerie et papier",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines": {
+          "matched": true,
+          "best_match": "[5]",
+          "score": 0.85,
+          "reason": "Référentiels emploi/compétence et formation/évaluation dans quatre disciplines"
+        },
+        "Socio-economic anchoring of French departments of Tunisian universities": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Governance framework established for the national employment strategy and the national entrepreneurship strategy and the design of the information system for the management and monitoring of the two strategies": {
+          "matched": true,
+          "best_match": "[9] [11]",
+          "score": 0.85,
+          "reason": "Stratégie Nationale pour l’Emploi et actualisation"
+        },
+        "Operational plan of the national employment strategy and integration into the five-year plan": {
+          "matched": true,
+          "best_match": "[10]",
+          "score": 0.85,
+          "reason": "Stratégie Nationale pour l’Emploi à horizon 2030"
+        },
+        "Evaluation of the human capital development system (higher education and professional training)": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Reform of the study plan for degrees in economics and management for higher institutes of technological studies": {
+          "matched": true,
+          "best_match": "[16]",
+          "score": 0.85,
+          "reason": "Réforme licences économie/gestion – ISET"
+        },
+        "Reform of the study plan for computer science degrees for higher institutes of technological studies": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)": {
+          "matched": true,
+          "best_match": "[3]",
+          "score": 0.85,
+          "reason": "Mise à jour du référentiel TIC et analyse des écarts"
+        },
+        "Assistance in diagnosing the employment market (Economy, Human Capital, Governance and Implementation)": {
+          "matched": true,
+          "best_match": "[1]",
+          "score": 0.85,
+          "reason": "Diagnostic marché de l’emploi et implémentation"
+        },
+        "Support for the formulation of the national employment strategy for 2030": {
+          "matched": true,
+          "best_match": "[9] [10]",
+          "score": 0.85,
+          "reason": "Stratégie Nationale pour l’Emploi et formulation SNE à horizon 2030"
+        },
+        "Creation of a Digital Talent project to improve employability": {
+          "matched": true,
+          "best_match": "[14]",
+          "score": 0.85,
+          "reason": "Compétences numériques – Congo"
+        },
+        "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Awareness raising and implementation of the ICT professions directory": {
+          "matched": true,
+          "best_match": "[3]",
+          "score": 0.85,
+          "reason": "Mise à jour du référentiel TIC et implementation"
+        },
+        "Strategic Review and 3-year Action Plan for an NGO in the Employment and Training sector": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Study on employment in small to medium-sized cities in Saudi Arabia": {
+          "matched": true,
+          "best_match": "[19]",
+          "score": 0.85,
+          "reason": "Due diligence commerciale pour l’acquisition d’un acteur régional dans le secteur cosmétique"
+        },
+        "Development of a regional action plan for the development of employment opportunities in Saudi Arabia": {
+          "matched": true,
+          "best_match": "[20]",
+          "score": 0.85,
+          "reason": "Plan stratégique pour la création d’une plateforme industrielle"
+        },
+        "Development of employment indicators as part of a National Development Plan": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Definition of an EFE strategic plan": {
+          "matched": true,
+          "best_match": "[17]",
+          "score": 0.85,
+          "reason": "Country Economic Transformation Outlook (CETO)"
+        },
+        "Retrospective evaluation of the Tunisian French partnership program for professional training": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        },
+        "Evaluation of Tunisian universities for the Tunisian government": {
+          "matched": true,
+          "best_match": "[8] [12]",
+          "score": 0.85,
+          "reason": "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle"
+        },
+        "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance trouvée"
+        }
+      },
+      "metrics": {
+        "MRR": 0.0,
+        "HitRate": 0,
+        "Recall@5": 0.0,
+        "Precision@5": 0.0,
+        "F1@5": 0.0,
+        "Recall@10": 0.0,
+        "Precision@10": 0.0,
+        "F1@10": 0.0,
+        "n_expected": 21,
+        "n_retrieved": 20,
+        "n_matched": 13
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+            "found_as": "[5]",
+            "position": -1
+          },
+          {
+            "project": "Governance framework established for the national employment strategy and the national entrepreneurship strategy and the design of the information system for the management and monitoring of the two strategies",
+            "found_as": "[9] [11]",
+            "position": -1
+          },
+          {
+            "project": "Operational plan of the national employment strategy and integration into the five-year plan",
+            "found_as": "[10]",
+            "position": -1
+          },
+          {
+            "project": "Reform of the study plan for degrees in economics and management for higher institutes of technological studies",
+            "found_as": "[16]",
+            "position": -1
+          },
+          {
+            "project": "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+            "found_as": "[3]",
+            "position": -1
+          },
+          {
+            "project": "Assistance in diagnosing the employment market (Economy, Human Capital, Governance and Implementation)",
+            "found_as": "[1]",
+            "position": -1
+          },
+          {
+            "project": "Support for the formulation of the national employment strategy for 2030",
+            "found_as": "[9] [10]",
+            "position": -1
+          },
+          {
+            "project": "Creation of a Digital Talent project to improve employability",
+            "found_as": "[14]",
+            "position": -1
+          },
+          {
+            "project": "Awareness raising and implementation of the ICT professions directory",
+            "found_as": "[3]",
+            "position": -1
+          },
+          {
+            "project": "Study on employment in small to medium-sized cities in Saudi Arabia",
+            "found_as": "[19]",
+            "position": -1
+          },
+          {
+            "project": "Development of a regional action plan for the development of employment opportunities in Saudi Arabia",
+            "found_as": "[20]",
+            "position": -1
+          },
+          {
+            "project": "Definition of an EFE strategic plan",
+            "found_as": "[17]",
+            "position": -1
+          },
+          {
+            "project": "Evaluation of Tunisian universities for the Tunisian government",
+            "found_as": "[8] [12]",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Socio-economic anchoring of French departments of Tunisian universities",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Evaluation of the human capital development system (higher education and professional training)",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Reform of the study plan for computer science degrees for higher institutes of technological studies",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Strategic Review and 3-year Action Plan for an NGO in the Employment and Training sector",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Development of employment indicators as part of a National Development Plan",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Retrospective evaluation of the Tunisian French partnership program for professional training",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years",
+            "reason": "Pas de correspondance trouvée",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 291.86
+    },
+    {
+      "id": 8,
+      "query": "financial inclusion, inclusive finance, access to finance, digital payments, financial services development, financial sector strategy",
+      "expected_count": 8,
+      "expected_projects": [
+        "Étude sur l’inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer",
+        "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+        "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+        "Réalisation d’une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement",
+        "Elaboration du Plan stratégique 2023-2027 de la BMICE",
+        "Création d'un gestionnaire de fonds spécialisé dans les Awqaf",
+        "Country Economic Transformation Outlook (CETO) : Tunisie",
+        "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Analyse secteur financier & inclusion financière",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Plans marketing & communication inclusion financière",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 99.0
+        },
+        {
+          "titre": "Digitalisation paiements & financement chaînes agricoles",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 93.7
+        },
+        {
+          "titre": "Protection des usagers des systèmes et moyens de paiement",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 76.6
+        },
+        {
+          "titre": "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 73.4
+        },
+        {
+          "titre": "Programme de dématérialisation des processus clientèle (particuliers)",
+          "annee": "2015-2016",
+          "pays": "France",
+          "pertinence": 65.7
+        },
+        {
+          "titre": "Revue stratégie filiale transformation digitale",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 64.3
+        },
+        {
+          "titre": "Sensibilisation acteurs financiers à la finance verte",
+          "annee": "2025-2026",
+          "pays": "Tunisie",
+          "pertinence": 45.4
+        },
+        {
+          "titre": "Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 45.0
+        },
+        {
+          "titre": "Assistance à la conception de la Banque des Régions",
+          "annee": "2015",
+          "pays": "Tunisie",
+          "pertinence": 40.8
+        },
+        {
+          "titre": "Développement services données satellitaires chaîne oléicole",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 38.6
+        },
+        {
+          "titre": "Diagnostic organisationnel et outils de suivi des investissements",
+          "annee": "2024-2025",
+          "pays": "Mauritanie",
+          "pertinence": 36.3
+        },
+        {
+          "titre": "Country Economic Transformation Outlook (CETO)",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 34.0
+        },
+        {
+          "titre": "Développement d'une plateforme de e-commerce (OFCT)",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 33.8
+        },
+        {
+          "titre": "Mise à jour majeure de l'Amplitude du système bancaire central intégré (v9 → v11)",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 27.2
+        },
+        {
+          "titre": "Cadre compétences numériques – Congo",
+          "annee": "2023-2024",
+          "pays": "Congo",
+          "pertinence": 25.3
+        },
+        {
+          "titre": "Plateforme e-commerce Mashmoom",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 13.0
+        },
+        {
+          "titre": "Évaluation cadre entrepreneuriat féminin",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 11.1
+        },
+        {
+          "titre": "Analyse des besoins dans le secteur des TIC",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 1.8
+        },
+        {
+          "titre": "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+          "annee": "2025",
+          "pays": "Togo",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Étude sur l’inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer": {
+          "matched": true,
+          "best_match": "[2]",
+          "score": 0.85,
+          "reason": "Inclusion financière, stratégies, marketing"
+        },
+        "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière": {
+          "matched": true,
+          "best_match": "[1]",
+          "score": 0.85,
+          "reason": "Secteur financier, inclusion financière"
+        },
+        "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte": {
+          "matched": true,
+          "best_match": "[8]",
+          "score": 0.85,
+          "reason": "Sensibilisation, finance verte"
+        },
+        "Réalisation d’une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement": {
+          "matched": true,
+          "best_match": "[4]",
+          "score": 0.85,
+          "reason": "Protection des usagers, systèmes et moyens de paiement"
+        },
+        "Elaboration du Plan stratégique 2023-2027 de la BMICE": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Création d'un gestionnaire de fonds spécialisé dans les Awqaf": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Country Economic Transformation Outlook (CETO) : Tunisie": {
+          "matched": true,
+          "best_match": "[13]",
+          "score": 0.85,
+          "reason": "Country Economic Transformation Outlook, Tunisie"
+        },
+        "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie": {
+          "matched": true,
+          "best_match": "[3]",
+          "score": 0.85,
+          "reason": "Digitalisation, financement agricole"
+        }
+      },
+      "metrics": {
+        "MRR": 0.0,
+        "HitRate": 0,
+        "Recall@5": 0.0,
+        "Precision@5": 0.0,
+        "F1@5": 0.0,
+        "Recall@10": 0.0,
+        "Precision@10": 0.0,
+        "F1@10": 0.0,
+        "n_expected": 8,
+        "n_retrieved": 20,
+        "n_matched": 6
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Étude sur l’inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer",
+            "found_as": "[2]",
+            "position": -1
+          },
+          {
+            "project": "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+            "found_as": "[1]",
+            "position": -1
+          },
+          {
+            "project": "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+            "found_as": "[8]",
+            "position": -1
+          },
+          {
+            "project": "Réalisation d’une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement",
+            "found_as": "[4]",
+            "position": -1
+          },
+          {
+            "project": "Country Economic Transformation Outlook (CETO) : Tunisie",
+            "found_as": "[13]",
+            "position": -1
+          },
+          {
+            "project": "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+            "found_as": "[3]",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Elaboration du Plan stratégique 2023-2027 de la BMICE",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Création d'un gestionnaire de fonds spécialisé dans les Awqaf",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 225.39
+    },
+    {
+      "id": 9,
+      "query": "research studies, public sector policy documents, higher education, technical skills training, certification, curriculum development, education reform",
+      "expected_count": 10,
+      "expected_projects": [
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+        "Strategic roadmap for the development of cultural and creative industries in Tunisia",
+        "Development Framework for Digital Skills in the Republic of Congo",
+        "Socio-economic anchoring of French departments of Tunisian universities",
+        "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+        "Research on the Creative Art Industry In Nigeria",
+        "Third-Party Monitoring, Evaluation and Learning Activity for Strengthening Education in North-East Nigeria (SENSE) Program",
+        "End-line Data Study for SIG Impact Evaluation",
+        "Baseline Data Study for SIG Impact Evaluation",
+        "Ex-Post Evaluation for Strengthening Mathematics and Science Education in Nigeria Project (SMASE) Phase 2"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+          "annee": "2019-2020",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Évaluation sectorielle et sélection de 2 programmes techniques dans les secteurs de la santé",
+          "annee": "2015",
+          "pays": "Tunisie",
+          "pertinence": 98.1
+        },
+        {
+          "titre": "Actualisation des plans d’études des filières STEM",
+          "annee": "N/A",
+          "pays": "Nigeria",
+          "pertinence": 84.1
+        },
+        {
+          "titre": "Analyse des besoins dans le secteur des TIC",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 58.9
+        },
+        {
+          "titre": "Évaluation sectorielle TIC – sélection programme",
+          "annee": "2015",
+          "pays": "MENA",
+          "pertinence": 51.4
+        },
+        {
+          "titre": "Cadre investissement hydrogène vert",
+          "annee": "2024",
+          "pays": "Tunisie",
+          "pertinence": 36.2
+        },
+        {
+          "titre": "Réforme licences économie/gestion – ISET",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 33.8
+        },
+        {
+          "titre": "Plateforme e-learning pour académie de formation",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 33.2
+        },
+        {
+          "titre": "Analyse des impacts de la réforme des prix de l’énergie et des subventions énergétiques",
+          "annee": "2016",
+          "pays": "Un pays membre du Conseil de Coopération du Golfe",
+          "pertinence": 31.0
+        },
+        {
+          "titre": "Réforme licences informatique – ISET",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 29.4
+        },
+        {
+          "titre": "Établissement d’un plan d’investissement dans le secteur de la grande distribution",
+          "annee": "2016",
+          "pays": "Région MENA",
+          "pertinence": 28.5
+        },
+        {
+          "titre": "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "annee": "2019",
+          "pays": "Tunisie",
+          "pertinence": 26.2
+        },
+        {
+          "titre": "Ancrage socio-économique des départements de français",
+          "annee": "2023",
+          "pays": "Tunisie",
+          "pertinence": 25.4
+        },
+        {
+          "titre": "Formulation de la Stratégie Nationale pour l’Emploi",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 23.4
+        },
+        {
+          "titre": "Étude stratégique pour l’ASSIDJE – sauvegarde de Djerba",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 20.2
+        },
+        {
+          "titre": "Due diligence produits hygiène",
+          "annee": "2021",
+          "pays": "Tunisie",
+          "pertinence": 19.1
+        },
+        {
+          "titre": "Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "annee": "2022-2023",
+          "pays": "Tunisie",
+          "pertinence": 14.6
+        },
+        {
+          "titre": "Évaluation système capital humain (ES/FP)",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 5.8
+        },
+        {
+          "titre": "Lean Six Sigma – industrie électrique",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 4.2
+        },
+        {
+          "titre": "Étude stratégique cliniques privées",
+          "annee": "2025",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance"
+        },
+        "Strategic roadmap for the development of cultural and creative industries in Tunisia": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance"
+        },
+        "Development Framework for Digital Skills in the Republic of Congo": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance"
+        },
+        "Socio-economic anchoring of French departments of Tunisian universities": {
+          "matched": true,
+          "best_match": "[13] Ancrage socio-économique des départements de français",
+          "score": 0.75,
+          "reason": "Ancrage socio-économique et mention de la France"
+        },
+        "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)": {
+          "matched": true,
+          "best_match": "[1] Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+          "score": 0.85,
+          "reason": "Mise à jour du référentiel des métiers TIC et écarts de plans d'étude"
+        },
+        "Research on the Creative Art Industry In Nigeria": {
+          "matched": false,
+          "best_match": "[12] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+          "score": 0.6,
+          "reason": "Industrie créative et numérique"
+        },
+        "Third-Party Monitoring, Evaluation and Learning Activity for Strengthening Education in North-East Nigeria (SENSE) Program": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Pas de correspondance"
+        },
+        "End-line Data Study for SIG Impact Evaluation": {
+          "matched": true,
+          "best_match": "[18] Évaluation système capital humain (ES/FP)",
+          "score": 0.7,
+          "reason": "Évaluation et impact"
+        },
+        "Baseline Data Study for SIG Impact Evaluation": {
+          "matched": true,
+          "best_match": "[18] Évaluation système capital humain (ES/FP)",
+          "score": 0.7,
+          "reason": "Évaluation et impact"
+        },
+        "Ex-Post Evaluation for Strengthening Mathematics and Science Education in Nigeria Project (SMASE) Phase 2": {
+          "matched": false,
+          "best_match": "[18] Évaluation système capital humain (ES/FP)",
+          "score": 0.65,
+          "reason": "Évaluation post-hoc et éducation"
+        }
+      },
+      "metrics": {
+        "MRR": 1.0,
+        "HitRate": 1,
+        "Recall@5": 0.1,
+        "Precision@5": 0.2,
+        "F1@5": 0.1333,
+        "Recall@10": 0.1,
+        "Precision@10": 0.1,
+        "F1@10": 0.1,
+        "n_expected": 10,
+        "n_retrieved": 20,
+        "n_matched": 4
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Socio-economic anchoring of French departments of Tunisian universities",
+            "found_as": "[13] Ancrage socio-économique des départements de français",
+            "position": -1
+          },
+          {
+            "project": "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+            "found_as": "[1] Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+            "position": -1
+          },
+          {
+            "project": "End-line Data Study for SIG Impact Evaluation",
+            "found_as": "[18] Évaluation système capital humain (ES/FP)",
+            "position": -1
+          },
+          {
+            "project": "Baseline Data Study for SIG Impact Evaluation",
+            "found_as": "[18] Évaluation système capital humain (ES/FP)",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+            "reason": "Pas de correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Strategic roadmap for the development of cultural and creative industries in Tunisia",
+            "reason": "Pas de correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Development Framework for Digital Skills in the Republic of Congo",
+            "reason": "Pas de correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Research on the Creative Art Industry In Nigeria",
+            "reason": "Industrie créative et numérique",
+            "best_llm": "[12] Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Third-Party Monitoring, Evaluation and Learning Activity for Strengthening Education in North-East Nigeria (SENSE) Program",
+            "reason": "Pas de correspondance",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Ex-Post Evaluation for Strengthening Mathematics and Science Education in Nigeria Project (SMASE) Phase 2",
+            "reason": "Évaluation post-hoc et éducation",
+            "best_llm": "[18] Évaluation système capital humain (ES/FP)",
+            "score": 0.65,
+            "probable_cause": "low_rank"
+          }
+        ]
+      },
+      "elapsed_s": 228.05
+    },
+    {
+      "id": 10,
+      "query": "emploi, politiques publiques d'emploi, marché du travail, employabilité, renforcement des capacités institutionnelles, acteurs locaux, gouvernance publique, stratégie emploi",
+      "expected_count": 18,
+      "expected_projects": [
+        "Réalisation d’un diagnostic du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan",
+        "Actualisation de la stratégie nationale de l’emploi",
+        "Assistance à la définition de la stratégie Nationale pour l’Emploi 2030",
+        "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+        "Intégration de la stratégie nationale de l'emploi dans les stratégies publiques (plan quinquennal 2021-2025, GBO, Plan Op)",
+        "La stratégie nationale d’amélioration du climat des affaires",
+        "La feuille de route pour l’innovation",
+        "Conduite d’une étude relative à l’ancrage socio-économique à l’échelle régionale, nationale et transnationale des départements de français des universités tunisiennes",
+        "Évaluation rapide de l’impact du COVID-19 sur l'économie et l’emploi en Tunisie",
+        "Elaboration de référentiels métiers, compétences, formations et évaluations dans quatre disciplines d’ingénierie agronome",
+        "Etude sur l’emploi dans les villes de petites à moyenne taille en Arabie Saoudite",
+        "Elaboration d'un nouveau cadre de développement régional et diagnostic socio-économique des 24 gouvernorats en fonction de leur potentiel et résultats économiques",
+        "Mise à jour du référentiel métiers et compétences TIC (version 2019/2020)",
+        "Revue Stratégique et Plan d'action à horizon 3 ans pour une ONG dans le secteur de l'Emploi et de la Formation",
+        "Elaboration d’indicateurs d’emploi dans le cadre d’un Plan National de Développement",
+        "Évaluation de l'étude sur le développement de l'entrepreneuriat féminin en Tunisie",
+        "Elaboration des indicateurs d’emploi dans le cadre d’un Plan National de Développement pour le gouvernement de l’Arabie Saoudite",
+        "Étude sur la main d'œuvre étrangère sur le marché du travail saoudien"
+      ],
+      "retrieved_count": 20,
+      "retrieved_detail": [
+        {
+          "titre": "Diagnostics marché du travail (5 gouvernorats)",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 100.0
+        },
+        {
+          "titre": "Assistance diagnostic marché de l’emploi",
+          "annee": "2018-2019",
+          "pays": "Tunisie",
+          "pertinence": 97.8
+        },
+        {
+          "titre": "Cadre de gouvernance SNE & SNET + SI de suivi",
+          "annee": "2021-2022",
+          "pays": "Tunisie",
+          "pertinence": 88.8
+        },
+        {
+          "titre": "Formulation SNE à horizon 2030 (extension)",
+          "annee": "2018-2019",
+          "pays": "Tunisie",
+          "pertinence": 88.2
+        },
+        {
+          "titre": "Actualisation Stratégie Nationale pour l’Emploi",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 79.4
+        },
+        {
+          "titre": "Formulation de la Stratégie Nationale pour l’Emploi",
+          "annee": "N/A",
+          "pays": "Tunisie",
+          "pertinence": 77.0
+        },
+        {
+          "titre": "Stratégie nationale d’amélioration du climat des affaires",
+          "annee": "2016-2017",
+          "pays": "Tunisie",
+          "pertinence": 42.8
+        },
+        {
+          "titre": "Plan stratégique pour acteur NTIC",
+          "annee": "2013",
+          "pays": "Région MENA",
+          "pertinence": 38.1
+        },
+        {
+          "titre": "Plan stratégique STB 2016–2020",
+          "annee": "2016",
+          "pays": "Tunisie",
+          "pertinence": 35.9
+        },
+        {
+          "titre": "Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+          "annee": "2017",
+          "pays": "Tunisie",
+          "pertinence": 32.7
+        },
+        {
+          "titre": "Mise en place d’un système de qualité pour les services publics sociaux",
+          "annee": "2023-2024",
+          "pays": "Arabie Saoudite",
+          "pertinence": 31.8
+        },
+        {
+          "titre": "Renforcement société civile – H2Vert",
+          "annee": "2023-2024",
+          "pays": "Tunisie",
+          "pertinence": 31.2
+        },
+        {
+          "titre": "Analyse du secteur de l’économie sociale et solidaire en Tunisie",
+          "annee": "2020",
+          "pays": "Tunisie",
+          "pertinence": 28.0
+        },
+        {
+          "titre": "Évaluation système capital humain (ES/FP)",
+          "annee": "2020-2021",
+          "pays": "Tunisie",
+          "pertinence": 27.0
+        },
+        {
+          "titre": "Dispositif communication interne – BCT",
+          "annee": "2019-2020",
+          "pays": "Tunisie",
+          "pertinence": 20.4
+        },
+        {
+          "titre": "Compétences chaîne hydrogène vert",
+          "annee": "2024-2025",
+          "pays": "Tunisie",
+          "pertinence": 16.8
+        },
+        {
+          "titre": "Diagnostic organisationnel et outils de suivi des investissements",
+          "annee": "2024-2025",
+          "pays": "Mauritanie",
+          "pertinence": 16.2
+        },
+        {
+          "titre": "Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "annee": "2022-2023",
+          "pays": "Tunisie",
+          "pertinence": 16.2
+        },
+        {
+          "titre": "Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+          "annee": "2022",
+          "pays": "Tunisie",
+          "pertinence": 9.1
+        },
+        {
+          "titre": "Sensibilisation acteurs financiers à la finance verte",
+          "annee": "2025-2026",
+          "pays": "Tunisie",
+          "pertinence": 0.0
+        }
+      ],
+      "matching": {
+        "Réalisation d’un diagnostic du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan": {
+          "matched": true,
+          "best_match": "[1] Diagnostics marché du travail (5 gouvernorats)",
+          "score": 0.85,
+          "reason": "Diagnostic du marché du travail dans plusieurs gouvernorats"
+        },
+        "Actualisation de la stratégie nationale de l’emploi": {
+          "matched": true,
+          "best_match": "[5] Actualisation Stratégie Nationale pour l’Emploi",
+          "score": 0.9,
+          "reason": "Mention d'actualisation de la stratégie nationale"
+        },
+        "Assistance à la définition de la stratégie Nationale pour l’Emploi 2030": {
+          "matched": true,
+          "best_match": "[4] Formulation SNE à horizon 2030 (extension)",
+          "score": 0.8,
+          "reason": "Formation de la stratégie nationale d'emploi à long terme"
+        },
+        "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriert et la conception du système d'information pour la gestion et le suivi des deux stratégies": {
+          "matched": true,
+          "best_match": "[3] Cadre de gouvernance SNE & SNET + SI de suivi",
+          "score": 0.75,
+          "reason": "Gouvernance et cadre pour la stratégie nationale d'emploi et d'entrepreneuriat"
+        },
+        "Intégration de la stratégie nationale de l'emploi dans les stratégies publiques (plan quinquennal 2021-2025, GBO, Plan Op)": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "La stratégie nationale d’amélioration du climat des affaires": {
+          "matched": true,
+          "best_match": "[7] Stratégie nationale d’amélioration du climat des affaires",
+          "score": 1.0,
+          "reason": "Stratégie nationale identique"
+        },
+        "La feuille de route pour l’innovation": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Conduite d’une étude relative à l’ancrage socio-économique à l’échelle régionale, nationale et transnationale des départements de français des universités tunisiennes": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Évaluation rapide de l’impact du COVID-19 sur l'économie et l’emploi en Tunisie": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Elaboration de référentiels métiers, compétences, formations et évaluations dans quatre disciplines d’ingénierie agronome": {
+          "matched": true,
+          "best_match": "[19] Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+          "score": 0.8,
+          "reason": "Élaboration des référentiels et formations d'ingénierie agronome"
+        },
+        "Etude sur l’emploi dans les villes de petites à moyenne taille en Arabie Saoudite": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Elaboration d'un nouveau cadre de développement régional et diagnostic socio-économique des 24 gouvernorats en fonction de leur potentiel et résultats économiques": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Mise à jour du référentiel métiers et compétences TIC (version 2019/2020)": {
+          "matched": false,
+          "best_match": "[8] Plan stratégique pour acteur NTIC",
+          "score": 0.6,
+          "reason": "Plan stratégique pour les technologies de l'information et de la communication"
+        },
+        "Revue Stratégique et Plan d'action à horizon 3 ans pour une ONG dans le secteur de l'Emploi et de la Formation": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Elaboration d’indicateurs d’emploi dans le cadre d’un Plan National de Développement": {
+          "matched": false,
+          "best_match": "[18] Design et implémentation de mécanismes de coordination – Delivery Unit",
+          "score": 0.2,
+          "reason": "Pas directement lié à l'indicateur d'emploi"
+        },
+        "Évaluation de l'étude sur le développement de l'entrepreneuriat féminin en Tunisie": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Elaboration des indicateurs d’emploi dans le cadre d’un Plan National de Développement pour le gouvernement de l’Arabie Saoudite": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "Aucun projet correspondant trouvé"
+        },
+        "Étude sur la main d'œuvre étrangère sur le marché du travail saoudien": {
+          "matched": false,
+          "best_match": "[20] Sensibilisation acteurs financiers à la finance verte",
+          "score": 0.1,
+          "reason": "Non directement lié au sujet de l'étude"
+        },
+        "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies": {
+          "matched": false,
+          "best_match": null,
+          "score": 0.0,
+          "reason": "non traité"
+        }
+      },
+      "metrics": {
+        "MRR": 1.0,
+        "HitRate": 1,
+        "Recall@5": 0.2222,
+        "Precision@5": 0.8,
+        "F1@5": 0.3478,
+        "Recall@10": 0.2778,
+        "Precision@10": 0.5,
+        "F1@10": 0.3572,
+        "n_expected": 18,
+        "n_retrieved": 20,
+        "n_matched": 6
+      },
+      "diagnosis": {
+        "found_ok": [],
+        "found_late": [
+          {
+            "project": "Réalisation d’un diagnostic du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan",
+            "found_as": "[1] Diagnostics marché du travail (5 gouvernorats)",
+            "position": -1
+          },
+          {
+            "project": "Actualisation de la stratégie nationale de l’emploi",
+            "found_as": "[5] Actualisation Stratégie Nationale pour l’Emploi",
+            "position": -1
+          },
+          {
+            "project": "Assistance à la définition de la stratégie Nationale pour l’Emploi 2030",
+            "found_as": "[4] Formulation SNE à horizon 2030 (extension)",
+            "position": -1
+          },
+          {
+            "project": "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriert et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+            "found_as": "[3] Cadre de gouvernance SNE & SNET + SI de suivi",
+            "position": -1
+          },
+          {
+            "project": "La stratégie nationale d’amélioration du climat des affaires",
+            "found_as": "[7] Stratégie nationale d’amélioration du climat des affaires",
+            "position": -1
+          },
+          {
+            "project": "Elaboration de référentiels métiers, compétences, formations et évaluations dans quatre disciplines d’ingénierie agronome",
+            "found_as": "[19] Elaboration de référentiels emploi/compétence et formation/évaluation dans quatre disciplines de l'ingénierie agronomique",
+            "position": -1
+          }
+        ],
+        "not_found": [
+          {
+            "project": "Intégration de la stratégie nationale de l'emploi dans les stratégies publiques (plan quinquennal 2021-2025, GBO, Plan Op)",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "La feuille de route pour l’innovation",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Conduite d’une étude relative à l’ancrage socio-économique à l’échelle régionale, nationale et transnationale des départements de français des universités tunisiennes",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Évaluation rapide de l’impact du COVID-19 sur l'économie et l’emploi en Tunisie",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Etude sur l’emploi dans les villes de petites à moyenne taille en Arabie Saoudite",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Elaboration d'un nouveau cadre de développement régional et diagnostic socio-économique des 24 gouvernorats en fonction de leur potentiel et résultats économiques",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Mise à jour du référentiel métiers et compétences TIC (version 2019/2020)",
+            "reason": "Plan stratégique pour les technologies de l'information et de la communication",
+            "best_llm": "[8] Plan stratégique pour acteur NTIC",
+            "score": 0.6,
+            "probable_cause": "low_rank"
+          },
+          {
+            "project": "Revue Stratégique et Plan d'action à horizon 3 ans pour une ONG dans le secteur de l'Emploi et de la Formation",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Elaboration d’indicateurs d’emploi dans le cadre d’un Plan National de Développement",
+            "reason": "Pas directement lié à l'indicateur d'emploi",
+            "best_llm": "[18] Design et implémentation de mécanismes de coordination – Delivery Unit",
+            "score": 0.2,
+            "probable_cause": "partial_match"
+          },
+          {
+            "project": "Évaluation de l'étude sur le développement de l'entrepreneuriat féminin en Tunisie",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Elaboration des indicateurs d’emploi dans le cadre d’un Plan National de Développement pour le gouvernement de l’Arabie Saoudite",
+            "reason": "Aucun projet correspondant trouvé",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          },
+          {
+            "project": "Étude sur la main d'œuvre étrangère sur le marché du travail saoudien",
+            "reason": "Non directement lié au sujet de l'étude",
+            "best_llm": "[20] Sensibilisation acteurs financiers à la finance verte",
+            "score": 0.1,
+            "probable_cause": "partial_match"
+          },
+          {
+            "project": "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+            "reason": "non traité",
+            "best_llm": null,
+            "score": 0.0,
+            "probable_cause": "not_in_db_or_naming"
+          }
+        ]
+      },
+      "elapsed_s": 296.36
+    }
+  ]
+}

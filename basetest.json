@@ -1,0 +1,321 @@
+[
+  {
+    "id": 1,
+    "query": "Quelles sont nos références sur l'inclusion financière, les services financiers digitaux et la stratégie du secteur financier ?",
+    "expected_projects": [
+      "Étude sur l'inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+      "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+      "Réalisation d'une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement",
+      "Elaboration du Plan stratégique 2023-2027 de la BMICE",
+      "Création d'un gestionnaire de fonds spécialisé dans les Awqaf",
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "Quels projets avons-nous réalisés sur la politique publique de l'emploi et la stratégie nationale pour l'emploi ?",
+    "expected_projects": [
+      "Actualisation de la Stratégie Nationale pour l'Emploi",
+      "Conduite de 5 diagnostics du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan",
+      "Assistance au diagnostic du marché de l'Emploi (Economie, Capital humain, Gouvernance et Mise en œuvre)",
+      "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030",
+      "Évaluation rapide de l'impact du COVID-19 sur l'économie et l'emploi en Tunisie",
+      "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "Quelles sont nos références dans le domaine de la finance verte et des énergies renouvelables ?",
+    "expected_projects": [
+      "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+      "SmartGreenEcos - Interreg NEXT MED"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "Quels projets avons-nous menés sur la réforme des curricula universitaires et l'adéquation formation-emploi ?",
+    "expected_projects": [
+      "Actualisation des plans d'études des filières STEM (Nigeria)",
+      "Ancrage socio-économique des départements de français des universités tunisiennes",
+      "Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+      "Réforme du plan d'étude des licences en économie et gestion pour les Instituts supérieurs d'études technologiques",
+      "Réforme du Plan d'étude les licences en informatique pour les Instituts supérieurs d'études technologiques",
+      "Elaboration de référentiels métiers, compétences, formations et évaluations dans quatre disciplines d'ingénierie agronome",
+      "Elaboration du cadre de développement des compétences numériques en république du Congo"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "Quelles sont nos références sur le dialogue public-privé et l'amélioration du climat des affaires en Tunisie ?",
+    "expected_projects": [
+      "Dialogue Public-Privé pour une feuille de route de l'Innovation à l'échelle d'un Pays (Les Assises de l'Innovation)",
+      "Dialogue Public Privé pour la stratégie nationale d'amélioration du Climat des Affaires et implication du secteur privé dans la gouvernance de l'investissement",
+      "Design et implémentation de mécanismes de coordination et de suivi des réformes économiques transverses - Delivery unit",
+      "Identification, Formulation, priorisation et suivi de la mise en œuvre de réformes économiques d'urgence en Tunisie",
+      "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l'industrie pharmaceutique"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "Quels sont nos projets réalisés au cours des 10 dernières années portant sur l'inclusion financière des femmes et des jeunes dans les régions défavorisées ?",
+    "expected_projects": [
+      "Étude sur l'inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+      "Assistance à la conception de la Banque des Régions"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "Quelles sont nos références sur la transformation économique et les réformes structurelles en Afrique et au Moyen-Orient ?",
+    "expected_projects": [
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Elaboration d'un diagnostic organisationnel et des outils de suivi des investissements (Mauritanie)",
+      "Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social",
+      "Définition des réformes structurelles et économiques et élaboration du nouveau code d'investissement",
+      "Diagnostic du niveau de développement économique et social des régions et définition et priorisation des politiques",
+      "Définition de la note d'orientation et vision du plan de développement"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "Quels projets avons-nous réalisés sur l'entrepreneuriat féminin et le genre dans le monde du travail ?",
+    "expected_projects": [
+      "Évaluation du cadre de l'Entrepreneuriat Féminin",
+      "Élaboration d'un plan d'action pour le Programme National d'Entrepreneuriat Féminin",
+      "Accompagnement du ministère de la Femme à l'évaluation du cadre national du développement de l'entrepreneuriat féminin Tunisien",
+      "Développement d'un concept de fonds arabe d'entrepreneuriat pour les petites et moyennes entreprises"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "Quelles sont nos références sur la digitalisation agricole et l'accès au financement dans les chaînes de valeur agro-alimentaires ?",
+    "expected_projects": [
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+      "Étude de faisabilité d'une assurance agricole indicielle pour les petits agriculteurs et les MPME agricoles",
+      "Étude du marché du leasing des équipements agricoles et médicaux au Togo",
+      "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo",
+      "Stratégie de développement d'une Marketplace de produits agricoles"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "Quels sont nos projets portant sur la migration et la transformation des systèmes d'information bancaires (core banking) ?",
+    "expected_projects": [
+      "Mise à jour majeure de l'Amplitude du système bancaire central intégré de la version 9 à la version 11 (Attijari Banque)",
+      "Définition du modèle opérationnel cible et accompagnement métier dans le cadre de la migration du Système d'Information (AttijariwafaBank Egypte)",
+      "Diagnostic en préparation de la fusion opérationnelle et de la migration du Core Banking System (OmniBsic Ghana)"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "Quelles sont nos références sur l'évaluation de l'impact du COVID-19 sur les économies africaines ?",
+    "expected_projects": [
+      "Évaluation rapide de l'impact du COVID-19 sur l'économie et l'emploi en Tunisie"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "Quels projets avons-nous réalisés au cours des 5 dernières années sur le développement des chaînes de valeur agricoles au Togo ?",
+    "expected_projects": [
+      "Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo",
+      "Étude du marché du leasing des équipements agricoles et médicaux au Togo",
+      "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo"
+    ]
+  },
+  {
+    "id": 13,
+    "query": "Quelles sont nos références sur la création et la structuration d'institutions financières spécialisées (fonds, banques, gestionnaires d'actifs) ?",
+    "expected_projects": [
+      "Création d'un gestionnaire de fonds spécialisé dans les Awqaf",
+      "Assistance à la conception de la Banque des Régions",
+      "Assistance technique et mise en conformité d'une association pour l'obtention d'agrément de Microcrédit",
+      "Structuration et lancement d'un nouveau fonds d'investissement domestique dédié au secteur du tourisme et des loisirs",
+      "Développement d'un concept de fonds arabe d'entrepreneuriat pour les petites et moyennes entreprises",
+      "Elaboration du Plan stratégique 2023-2027 de la BMICE"
+    ]
+  },
+  {
+    "id": 14,
+    "query": "Quelles sont nos références sur les stratégies de promotion de l'investissement et la réforme des agences d'investissement ?",
+    "expected_projects": [
+      "Convergence des institutions et agences publiques en charge de l'investissement en Tunisie (APII, APIA, ONTT, ONA, FIPA)",
+      "Assistance au design, organisation et dimensionnement de l'Instance Nationale de l'Investissement (TIA)",
+      "Définition des réformes structurelles et économiques et élaboration du nouveau code d'investissement",
+      "Assistance au design d'une nouvelle institution en charge de promouvoir les investissements dans le secteur de l'offshoring",
+      "Elaboration d'un diagnostic organisationnel et des outils de suivi des investissements (APIM Mauritanie)"
+    ]
+  },
+  {
+    "id": 15,
+    "query": "Quels projets traitent de la durabilité environnementale, de la transition verte et de l'économie durable ?",
+    "expected_projects": [
+      "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+      "SmartGreenEcos - Interreg NEXT MED",
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Planification et mise en œuvre de partenariats innovants dans le domaine du tourisme durable",
+      "Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "Quelles sont nos références sur la compétitivité des exportations tunisiennes et l'accès aux marchés internationaux ?",
+    "expected_projects": [
+      "Etude sur l'exportation et la distribution de l'huile d'olive gourmet sur le marché américain",
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Stratégie de développement d'une Marketplace de produits agricoles",
+      "Assistance au design d'une nouvelle institution en charge de promouvoir les investissements dans le secteur de l'offshoring"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "Quels projets avons-nous réalisés sur la formulation et le pilotage de stratégies nationales sectorielles (emploi, entrepreneuriat, numérique) ?",
+    "expected_projects": [
+      "Actualisation de la Stratégie Nationale pour l'Emploi",
+      "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat",
+      "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030",
+      "Elaboration du cadre de développement des compétences numériques en République du Congo",
+      "Design et implémentation de mécanismes de coordination et de suivi des réformes économiques transverses - Delivery unit"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "Quelles sont nos références sur les due diligences commerciales pour des fonds d'investissement dans le secteur agroalimentaire ?",
+    "expected_projects": [
+      "Due Diligence commerciale pour l'acquisition d'un acteur de conserves de thon",
+      "Due Diligence commerciale pour l'acquisition d'entreprises opérant dans le secteur des boissons et des snacks",
+      "Due diligence commerciale pour l'acquisition d'une entreprise spécialisée dans la transformation de tomate",
+      "IFC - Étude sectorielle des dattes algériennes"
+    ]
+  },
+  {
+    "id": 19,
+    "query": "Quels projets avons-nous réalisés sur la transformation digitale et les fintechs dans le secteur financier ?",
+    "expected_projects": [
+      "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+      "Revue stratégique et accompagnement pour l'opérationnalisation des activités de la filiale spécialisée en transformation digitale",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+      "Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement"
+    ]
+  },
+  {
+    "id": 20,
+    "query": "Quelles sont nos références en Arabie Saoudite sur la création d'institutions publiques et la Vision 2030 ?",
+    "expected_projects": [
+      "Création de la NHC, National Housing Company d'Arabie Saoudite",
+      "Définition stratégique et opérationnelle d'un centre de recherches et de développement économique",
+      "Mise en place d'un système de qualité pour les services publics sociaux (Ministère des Ressources humaines KSA)",
+      "Développement d'un concept de fonds arabe d'entrepreneuriat pour les petites et moyennes entreprises",
+      "Revue stratégique et plan de transformation d'un acteur spécialisé dans les technologies et expériences immersives (Midwam)"
+    ]
+  },
+  {
+    "id": 21,
+    "query": "Quels projets traitent de la protection des consommateurs des services financiers et de la réglementation des paiements digitaux ?",
+    "expected_projects": [
+      "Réalisation d'une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+      "Mise en place d'un dispositif de communication interne pour la banque centrale de Tunisie"
+    ]
+  },
+  {
+    "id": 22,
+    "query": "Quelles sont nos références sur les diagnostics régionaux du marché du travail et les plans régionaux pour l'emploi ?",
+    "expected_projects": [
+      "Conduite de 5 diagnostics du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan",
+      "Diagnostic du niveau de développement économique et social des régions et définition et priorisation des politiques",
+      "Assistance au diagnostic du marché de l'Emploi (Economie, Capital humain, Gouvernance et Mise en œuvre)"
+    ]
+  },
+  {
+    "id": 23,
+    "query": "Quels projets avons-nous réalisés au cours des 10 dernières années sur les chaînes de valeur oléicoles, dattes et agriculture tunisienne ?",
+    "expected_projects": [
+      "Étude de faisabilité d'une assurance agricole indicielle pour les petits agriculteurs et les MPME agricoles",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+      "Stratégie de développement d'une Marketplace de produits agricoles",
+      "Etude sur l'exportation et la distribution de l'huile d'olive gourmet sur le marché américain",
+      "Evaluation de l'opportunité et étude de faisabilité pour la création d'une bourse de commodités en Tunisie",
+      "Évaluation de la proposition de valeur et de l'adoption par les parties prenantes : solution digitale de suivi de la santé des oliviers"
+    ]
+  },
+  {
+    "id": 24,
+    "query": "Quelles sont nos références sur le développement des industries culturelles et créatives et le secteur culturel ?",
+    "expected_projects": [
+      "Feuille de route stratégique pour le développement des industries culturelles et créatives en Tunisie",
+      "Services pour la mise en œuvre du plan d'action pour l'appui technique aux ministères de la jeunesse et des affaires culturelles",
+      "Elaboration d'une étude stratégique pour l'ASSIDJE - sauvegarde de Djerba"
+    ]
+  },
+  {
+    "id": 25,
+    "query": "Quels projets portant sur l'analyse des marchés bancaires et les plans stratégiques de banques avons-nous réalisés en Afrique ?",
+    "expected_projects": [
+      "Accompagnement du groupe pour le diagnostic et la préparation d'un plan stratégique à moyen terme (BSIC GROUP)",
+      "Diagnostic en préparation de la fusion opérationnelle et de la migration du Core Banking System (OmniBsic Ghana)",
+      "Plan stratégique STB 2016-2020",
+      "Elaboration du Plan stratégique 2023-2027 de la BMICE",
+      "Modèle relationnel entreprises (AttijariwafaBank Maroc)"
+    ]
+  },
+  {
+    "id": 26,
+    "query": "Quels projets avons-nous menés sur les compétences numériques, la transformation digitale et l'économie numérique ?",
+    "expected_projects": [
+      "Elaboration du cadre de développement des compétences numériques en République du Congo",
+      "Actualisation des plans d'études des filières STEM (Nigeria)",
+      "Élaboration d'une analyse des besoins en compétences TIC & IT",
+      "Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude",
+      "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs"
+    ]
+  },
+  {
+    "id": 27,
+    "query": "Quelles sont nos références sur les partenariats publics-privés (PPP) et l'évaluation de contrats publics ?",
+    "expected_projects": [
+      "Assistance dans les travaux d'enquête parlementaire pour l'évaluation financière et juridique des PPP (Mauritanie)",
+      "Dialogue Public Privé pour la stratégie nationale d'amélioration du Climat des Affaires",
+      "Dialogue Public-Privé pour une feuille de route de l'Innovation à l'échelle d'un Pays",
+      "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l'industrie pharmaceutique"
+    ]
+  },
+  {
+    "id": 28,
+    "query": "Quels projets traitent du microcrédit, de l'économie sociale et solidaire (ESS) et du financement des petites entreprises ?",
+    "expected_projects": [
+      "Assistance technique et mise en conformité d'une association pour l'obtention d'agrément de Microcrédit",
+      "Analyse du secteur de l'économie sociale et solidaire en Tunisie",
+      "Développement d'un concept de fonds arabe d'entrepreneuriat pour les petites et moyennes entreprises",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière"
+    ]
+  },
+  {
+    "id": 29,
+    "query": "Quelles sont nos références sur le tourisme durable et les stratégies d'investissement dans le secteur touristique ?",
+    "expected_projects": [
+      "Planification et mise en œuvre de partenariats innovants dans le domaine du tourisme durable",
+      "Structuration et lancement d'un nouveau fonds d'investissement domestique dédié au secteur du tourisme et des loisirs",
+      "Définition d'une stratégie d'investissement pour un fonds d'investissement spécialisé dans le tourisme",
+      "Elaboration d'une étude stratégique pour l'ASSIDJE - sauvegarde de Djerba"
+    ]
+  },
+  {
+    "id": 30,
+    "query": "Quels projets avons-nous réalisés sur la réforme de l'enseignement supérieur et l'évaluation des systèmes éducatifs ?",
+    "expected_projects": [
+      "Évaluation du système de développement du capital humain (enseignement supérieur et formation professionnelle)",
+      "Ancrage socio-économique des départements de français des universités tunisiennes",
+      "Actualisation des plans d'études des filières STEM (Nigeria)",
+      "Réforme du plan d'étude des licences en économie et gestion pour les ISET",
+      "Réforme du Plan d'étude les licences en informatique pour les ISET",
+      "Evaluation rétrospective du programme de partenariat tuniso-français pour la formation professionnelle",
+      "Elaboration du cadre de développement des compétences numériques en République du Congo"
+    ]
+  }
+]

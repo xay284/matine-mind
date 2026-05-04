@@ -1,0 +1,214 @@
+QUESTIONS À POSER À COPILOT
+Copie-colle chaque question, puis note la réponse dans baseline_data.json
+======================================================================
+
+[Q1]
+Quelles sont nos références en matière de dialogue public-privé, de réformes institutionnelles et d'amélioration du climat des affaires ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q2]
+Quels projets avons-nous réalisés en stratégie d'investissement et en développement de cadres institutionnels financiers ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q3]
+What are our references in green finance, gender inclusion, and capacity building programs ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q4]
+have we done on financial inclusion, digital payments, and regulatory analysis in financial services ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q5]
+What are our references on electric mobility, renewable energy feasibility studies, and public-private partnerships in the energy sector ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q6]
+What projects have we conducted involving field surveys, stakeholder interviews, and value chain analysis in the agriculture sector ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q7]
+Quelles missions avons-nous réalisées sur l'adéquation formation-emploi, la réforme des curricula et le diagnostic du marché du travail ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q8]
+Quelles sont nos références sur l'inclusion financière, les services financiers digitaux et la stratégie du secteur financier ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q9]
+Quels projets avons-nous menés dans le domaine de l'enseignement supérieur, de la formation certifiante et de la réforme des curricula ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q10]
+Quelles références avons-nous sur la stratégie nationale de l'emploi, le diagnostic du marché du travail et le renforcement des capacités institutionnelles en Tunisie ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q11]
+Évaluation digitalisation paiements agricoles Tunisie
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q12]
+renforcement société civile, sensibilisation hydrogène vert, associations environnementales
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q13]
+Formation sur la transformation digitale et fintechs pour cadres bancaires
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q14]
+Définition modèle opérationnel cible SI migration Services financiers
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q15]
+analyse réglementaire et benchmark protection consommateurs services financiers
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q16]
+Diagnostic macro-économique modèle de développement social Tunisie
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q17]
+Services pour l'appui technique aux ministères de la jeunesse et des sports en Tunisie
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q18]
+Analyse de marché et conception de plan d'affaires pour fonds d'investissement tourisme Arabie Saoudite
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q19]
+Scénarios expansion financier et opérationnel industrie acier Moyen-Orient
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q20]
+Étude marché leasing équipements agricoles médicaux Togo
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q21]
+Quels projets similaires à celui de diagnostics sur le marché du travail dans les gouvernorats tunisiens, réalisés entre 2021 et 2025, concernant la Stratégie Nationale de l’Emploi, ont un budget supérieur à 500k USD et impliquent un client public comme OIT ou MFPE ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q22]
+Quel est l'impact du dialogue public-privé sur la définition d'un plan marketing stratégique dans le secteur de l'agriculture et agroalimentaire, depuis 2020 avec un budget supérieur à 100k EUR?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q23]
+Quels projets ont été réalisés pour la convergence des institutions publiques en charge de l’investissement au sein d'un secteur socio-économique, avec un budget supérieur à 500k USD, entre 2018 et 2023, pour le compte d'un bailleur de fonds ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q24]
+Quel projet a été réalisé entre 2016 et 2021, concernant une stratégie d'exportation de biens pharmaceutiques dans un pays méditerranéen avec un budget supérieur à 500k USD?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q25]
+Quels projets similaires à celui réalisé pour BSIC GROUP entre 2018 et 2023 ont impliqué l'accompagnement stratégique et la gouvernance d'un groupe opérant dans les services financiers sur plusieurs pays africains ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q26]
+Quelles études ont été réalisées sur la transformation digitale dans les groupes privés tunisiens entre 2018 et 2023, concernant la définition d'une feuille de route opérationnelle et l'ajustement stratégique ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q27]
+Quelles études stratégiques sur le secteur des cliniques privées en Tunisie, réalisées pour un client du secteur privé entre 2021 et 2025 et comportant une analyse comparative des modèles d'exploitation ont été menées ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q28]
+Quels projets ont été réalisés en Lean Six Sigma dans les industries manufacturières tunisiennes pour un client public entre 2019 et 2023 avec un budget supérieur à 500k USD ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q29]
+Quels projets similaires à une évaluation du système capital humain ont été réalisés pour un client américain dans le secteur de l’enseignement, de l’emploi et de l’entrepreneuriat au cours des 5 dernières années avec un budget supérieur à 500k USD ?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+
+[Q30]
+Quels projets similaires ont été réalisés en Tunisie depuis 2018 pour le Ministère de la Femme, impliquant un benchmarking international et des ateliers avec plusieurs acteurs du secteur?
+
+[RÉPONSE COPILOT]
+(à compléter)
+──────────────────────────────────────────────────
+

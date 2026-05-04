@@ -1,0 +1,419 @@
+[
+  {
+    "id": 1,
+    "query": "Quelles sont nos références en matière de dialogue public-privé, de réformes institutionnelles et d'amélioration du climat des affaires ?",
+    "expected_projects": [
+      "Elaboration du cadre de développement des compétences numériques en république du Congo",
+      "Appui à la préparation et à l'animation du Dialogue Public-Privé de l'Innovation pour la République Tunisienne (« Les Assises de l’Innovation »)",
+      "Dialogue Public Privé sur le Climat des Affaires et implication du secteur privé dans l'initiative Compact with Africa",
+      "Assistance pour la conception et la mise en œuvre de réformes d'urgence en Tunisie - Delivery unit",
+      "Elaboration d'une feuille de route stratégique pour le développement des industries culturelles et créatives",
+      "Mise en place d'un système de qualité pour les services publics sociaux",
+      "GIZ - Analyse du Cadre d’Investissement de l’Hydrogène Vert et ses dérivés en Tunisie",
+      "Évaluation du cadre de l’Entrepreneuriat Féminin",
+      "Plan opérationnel de la stratégie nationale de l'emploi et intégration dans le plan quinquennal",
+      "Cadre de gouvernance mis en place pour la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+      "Accompagnement à la formulation de la stratégie nationale de l'emploi à horizon 2030",
+      "Assistance dans l'enquête parlementaire pour l'évaluation financière et juridique des partenariats publics privés",
+      "Convergence des Instances d'investissement en Tunisie (APII, APIA, ONTT, ONA, FIPA)",
+      "Assistance au design de l’Instance Nationale de l’Investissement (TIA)",
+      "Réforme du cadre institutionnel d’investissement en Tunisie (phase de diagnostic, benchmark et scénarios)",
+      "Accompagnement à la réalisation du dialogue public-privé dans les secteurs du textile et de l’industrie pharmaceutique"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "Quels projets avons-nous réalisés en stratégie d'investissement et en développement de cadres institutionnels financiers ?",
+    "expected_projects": [
+      "Création de la Compagnie nationale du Logement de l’Arabie Saoudite",
+      "Analyse des impacts de la réforme des prix de l'énergie et des subventions énergétiques",
+      "Plan de restructuration opérationnelle d'un acteur dans l'industrie de la fonderie",
+      "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière (Sélection n° 1266838)",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie",
+      "Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring ",
+      "Création d'un gestionnaire de fonds spécialisé dans les « Awqaf »",
+      "Accompagnement du groupe pour le diagnostic et la préparation d’un plan stratégique à moyen terme",
+      "Assistance dans les travaux d'enquête parlementaire pour évaluation des partenariat publics privés "
+    ]
+  },
+  {
+    "id": 3,
+    "query": "What are our references in green finance, gender inclusion, and capacity building programs ?",
+    "expected_projects": [
+      "Capacity building of civil society and partnership for the organization of H2Vert project activities",
+      "National Assessment of the Framework Conditions for Women's Entrepreneurship Development in Tunisia",
+      "Development of an Arab entrepreneurship fund concept for small and medium-sized businesses",
+      "Development of an action plan for the National Women's Entrepreneurship Program",
+      "Design and development of an online learning platform",
+      "Structuring and launching of a new domestic investment fund dedicated to the tourism and leisure sector",
+      "Analysis of the Green Hydrogen Investment Framework and its derivatives in Tunisia",
+      "Development of the digital skills development framework in the Republic of Congo",
+      "Elaboration of job/skills and curriculum/evaluation referential in four agricultural engineering disciplines",
+      "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+      "Africa Country and Climate Development report – Green Surveys"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "have we done on financial inclusion, digital payments, and regulatory analysis in financial services ?",
+    "expected_projects": [
+      "Establishment of an investment plan in the supermarket sector",
+      "Development Framework for Digital Skills in the Republic of Congo",
+      "Strategic review and support for the operationalization of the activities of the subsidiary specializing in digital transformation and innovation",
+      "Establishment of an investment plan in the retail sector",
+      "Definition of an expansion target in North Africa or Sub-Saharan Africa for a mobile terminal operator and establishment of a business plan",
+      "Operational plan of the national employment strategy and integration into the five-year plan",
+      "Deep dive and market assessment of cashew nut and fertilizer value chains in Togo",
+      "Study of the leasing market for agricultural and medical equipment in Togo",
+      "Support to the preparation and facilitation of the Innovation Public-Private Dialogue for the Republic of Tunisia",
+      "Assessment of the opportunity and feasibility study for the creation of a commodities exchange in Tunisia",
+      "Major update of the Amplitude of the integrated central banking system from version 9 to version 11"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "What are our references on electric mobility, renewable energy feasibility studies, and public-private partnerships in the energy sector ?",
+    "expected_projects": [
+      "Assistance in parliamentary inquiry work for the evaluation of public-private partnerships",
+      "Energy subsidy reform in GCC country",
+      "Integration of the National Employment Strategy into the national planning process",
+      "Governance framework set up for the National Employment Strategy and the National Entrepreneurship Strategy and the information system design for the management and monitoring of the two strategies",
+      "Financial services market assessment in Tunisia",
+      "Scoping the opportunity for Digital Payments in the Agricultural value chains in Tunisia",
+      "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years",
+      "Establishing an Endowment (Awqaf) Asset Management Company (ACAP)"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "What projects have we conducted involving field surveys, stakeholder interviews, and value chain analysis in the agriculture sector ?",
+    "expected_projects": [
+      "Deep Dive and Market Assessment of Cashew Nut and Fertilizer value chains in Togo",
+      "Study of the leasing market for agricultural and medical equipment in Togo",
+      "Sector study of Algerian dates",
+      "Feasibility study of index-based agricultural insurance for small farmers and agricultural MSMEs",
+      "Assessment of opportunities for digitalization of payments and improvement of access to financing in agricultural value chains in Tunisia",
+      "Development strategy for an agricultural products Marketplace",
+      "Commercial Due Diligence on a canned tuna player",
+      "Commercial Due Diligence on companies in the drinks and snacks sector",
+      "Organic and chemical fertilizer market analysis",
+      "Commercial due diligence for the acquisition of a company specializing in tomato processing",
+      "Study on the export and distribution of gourmet olive oil on the American market",
+      "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "Quelles missions avons-nous réalisées sur l'adéquation formation-emploi, la réforme des curricula et le diagnostic du marché du travail ?",
+    "expected_projects": [
+      "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+      "Socio-economic anchoring of French departments of Tunisian universities",
+      "Governance framework established for the national employment strategy and the national entrepreneurship strategy and the design of the information system for the management and monitoring of the two strategies",
+      "Operational plan of the national employment strategy and integration into the five-year plan",
+      "Evaluation of the human capital development system (higher education and professional training)",
+      "Reform of the study plan for degrees in economics and management for higher institutes of technological studies",
+      "Reform of the study plan for computer science degrees for higher institutes of technological studies",
+      "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+      "Assistance in diagnosing the employment market (Economy, Human Capital, Governance and Implementation)",
+      "Support for the formulation of the national employment strategy for 2030",
+      "Creation of a Digital Talent project to improve employability",
+      "Implementation of the ICT professional framework in 10 private companies and 10 public and private higher education establishments",
+      "Awareness raising and implementation of the ICT professions directory",
+      "Strategic Review and 3-year Action Plan for an NGO in the Employment and Training sector",
+      "Study on employment in small to medium-sized cities in Saudi Arabia",
+      "Development of a regional action plan for the development of employment opportunities in Saudi Arabia",
+      "Development of employment indicators as part of a National Development Plan",
+      "Definition of an EFE strategic plan",
+      "Retrospective evaluation of the Tunisian French partnership program for professional training",
+      "Evaluation of Tunisian universities for the Tunisian government",
+      "Development of the 'Off-shore' industry for the creation of 150 thousand jobs in 10 years"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "Quelles sont nos références sur l'inclusion financière, les services financiers digitaux et la stratégie du secteur financier ?",
+    "expected_projects": [
+      "Étude sur l’inclusion financière et élaboration de stratégies et plans de marketing, communication et plaidoyer ",
+      "Analyse du secteur financier tunisien et identification d'opportunité de développement des services financiers et de l'inclusion financière",
+      "Déploiement d'une stratégie de sensibilisation des acteurs financiers tunisiens à la finance verte",
+      "Réalisation d’une analyse des besoins pour la protection des usagers des systèmes et moyens de paiement",
+      "Elaboration du Plan stratégique 2023-2027 de la BMICE",
+      "Création d'un gestionnaire de fonds spécialisé dans les Awqaf",
+      "Country Economic Transformation Outlook (CETO) : Tunisie",
+      "Evaluation des opportunités de digitalisation des paiements et d'amélioration de l'accès au financement dans les chaînes de valeur agricoles en Tunisie"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "Quels projets avons-nous menés dans le domaine de l'enseignement supérieur, de la formation certifiante et de la réforme des curricula ?",
+    "expected_projects": [
+      "Elaboration of job/competence and training/evaluation referential in four agricultural engineering disciplines",
+      "Strategic roadmap for the development of cultural and creative industries in Tunisia",
+      "Development Framework for Digital Skills in the Republic of Congo",
+      "Socio-economic anchoring of French departments of Tunisian universities",
+      "Update of the ICT professions framework and analysis of study plan gaps (REM/REC)",
+      "Research on the Creative Art Industry In Nigeria",
+      "Third-Party Monitoring, Evaluation and Learning Activity for Strengthening Education in North-East Nigeria (SENSE) Program",
+      "End-line Data Study for SIG Impact Evaluation",
+      "Baseline Data Study for SIG Impact Evaluation",
+      "Ex-Post Evaluation for Strengthening Mathematics and Science Education in Nigeria Project (SMASE) Phase 2"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "Quelles références avons-nous sur la stratégie nationale de l'emploi, le diagnostic du marché du travail et le renforcement des capacités institutionnelles en Tunisie ?",
+    "expected_projects": [
+      "Réalisation d’un diagnostic du marché du travail à Tunis, Manouba, Sousse, Sfax et Kairouan",
+      "Actualisation de la stratégie nationale de l’emploi",
+      "Assistance à la définition de la stratégie Nationale pour l’Emploi 2030",
+      "Mise en place du cadre de gouvernance de la stratégie nationale pour l'emploi et la stratégie nationale d'entrepreneuriat et la conception du système d'information pour la gestion et le suivi des deux stratégies",
+      "Intégration de la stratégie nationale de l'emploi dans les stratégies publiques (plan quinquennal 2021-2025, GBO, Plan Op)",
+      "La stratégie nationale d’amélioration du climat des affaires",
+      "La feuille de route pour l’innovation",
+      "Conduite d’une étude relative à l’ancrage socio-économique à l’échelle régionale, nationale et transnationale des départements de français des universités tunisiennes",
+      "Évaluation rapide de l’impact du COVID-19 sur l'économie et l’emploi en Tunisie",
+      "Elaboration de référentiels métiers, compétences, formations et évaluations dans quatre disciplines d’ingénierie agronome",
+      "Etude sur l’emploi dans les villes de petites à moyenne taille en Arabie Saoudite",
+      "Elaboration d'un nouveau cadre de développement régional et diagnostic socio-économique des 24 gouvernorats en fonction de leur potentiel et résultats économiques",
+      "Mise à jour du référentiel métiers et compétences TIC (version 2019/2020)",
+      "Revue Stratégique et Plan d'action à horizon 3 ans pour une ONG dans le secteur de l'Emploi et de la Formation",
+      "Elaboration d’indicateurs d’emploi dans le cadre d’un Plan National de Développement",
+      "Évaluation de l'étude sur le développement de l'entrepreneuriat féminin en Tunisie",
+      "Elaboration des indicateurs d’emploi dans le cadre d’un Plan National de Développement pour le gouvernement de l’Arabie Saoudite",
+      "Étude sur la main d'œuvre étrangère sur le marché du travail saoudien"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "Évaluation digitalisation paiements agricoles Tunisie",
+    "type": "simple",
+    "source_project": "Digitalisation paiements & financement chaînes agricoles",
+    "expected_projects": [
+      "Digitalisation paiements & financement chaînes agricoles"
+    ],
+    "generated_at": "2026-04-22T12:03:28.996898"
+  },
+  {
+    "id": 12,
+    "query": "renforcement société civile, sensibilisation hydrogène vert, associations environnementales",
+    "type": "simple",
+    "source_project": "Renforcement société civile – H2Vert",
+    "expected_projects": [
+      "Renforcement société civile – H2Vert",
+      "Compétences chaîne hydrogène vert"
+    ],
+    "generated_at": "2026-04-22T12:03:32.114770"
+  },
+  {
+    "id": 13,
+    "query": "Formation sur la transformation digitale et fintechs pour cadres bancaires",
+    "type": "simple",
+    "source_project": "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+    "expected_projects": [
+      "Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs",
+      "Revue stratégie filiale transformation digitale"
+    ],
+    "generated_at": "2026-04-22T12:03:35.250781"
+  },
+  {
+    "id": 14,
+    "query": "Définition modèle opérationnel cible SI migration Services financiers",
+    "type": "simple",
+    "source_project": "Définition du modèle opérationnel cible et accompagnement métier dans la migration du SI",
+    "expected_projects": [
+      "Définition du modèle opérationnel cible et accompagnement métier dans la migration du SI",
+      "Fusion bancaire – diagnostic migration CBS (Ghana)"
+    ],
+    "generated_at": "2026-04-22T12:03:38.495119"
+  },
+  {
+    "id": 15,
+    "query": "analyse réglementaire et benchmark protection consommateurs services financiers",
+    "type": "simple",
+    "source_project": "Protection des usagers des systèmes et moyens de paiement",
+    "expected_projects": [
+      "Protection des usagers des systèmes et moyens de paiement",
+      "Analyse secteur financier & inclusion financière"
+    ],
+    "generated_at": "2026-04-22T12:03:41.647953"
+  },
+  {
+    "id": 16,
+    "query": "Diagnostic macro-économique modèle de développement social Tunisie",
+    "type": "simple",
+    "source_project": "Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social",
+    "expected_projects": [
+      "Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social",
+      "Diagnostic du niveau de développement économique et social des régions et définition et priorisation des politiques"
+    ],
+    "generated_at": "2026-04-22T12:03:44.836514"
+  },
+  {
+    "id": 17,
+    "query": "Services pour l'appui technique aux ministères de la jeunesse et des sports en Tunisie",
+    "type": "simple",
+    "source_project": "Services pour la mise en œuvre du plan d'action pour l'appui technique aux ministères de la jeunesse et des sports et des affaires culturelles en Tunisie",
+    "expected_projects": [
+      "Services pour la mise en œuvre du plan d'action pour l'appui technique aux ministères de la jeunesse et des sports et des affaires culturelles en Tunisie",
+      "Assistance au design d’une nouvelle institution en charge de promouvoir les investissements dans le secteur de l’offshoring",
+      "Analyse des besoins dans le secteur des TIC",
+      "Évaluation sectorielle et sélection de 2 programmes techniques dans les secteurs de la santé",
+      "Assistance diagnostic marché de l’emploi",
+      "Partenariats innovants en tourisme durable",
+      "Réforme licences informatique – ISET",
+      "Assistance pour la conception d'une nouvelle offre de services financiers et l'élaboration d'une trajectoire de lancement"
+    ],
+    "generated_at": "2026-04-22T12:03:48.027983"
+  },
+  {
+    "id": 18,
+    "query": "Analyse de marché et conception de plan d'affaires pour fonds d'investissement tourisme Arabie Saoudite",
+    "type": "simple",
+    "source_project": "Structuration et lancement d'un nouveau fonds d'investissement domestique dédié au secteur du tourisme et des loisirs",
+    "expected_projects": [
+      "Structuration et lancement d'un nouveau fonds d'investissement domestique dédié au secteur du tourisme et des loisirs"
+    ],
+    "generated_at": "2026-04-22T12:03:51.476689"
+  },
+  {
+    "id": 19,
+    "query": "Scénarios expansion financier et opérationnel industrie acier Moyen-Orient",
+    "type": "simple",
+    "source_project": "Scénarios expansion – industriel acier (MENA)",
+    "expected_projects": [
+      "Scénarios expansion – industriel acier (MENA)",
+      "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient"
+    ],
+    "generated_at": "2026-04-22T12:03:54.768780"
+  },
+  {
+    "id": 20,
+    "query": "Étude marché leasing équipements agricoles médicaux Togo",
+    "type": "simple",
+    "source_project": "Étude du marché du leasing équipements agricoles et médicaux",
+    "expected_projects": [
+      "Étude du marché du leasing équipements agricoles et médicaux"
+    ],
+    "generated_at": "2026-04-22T12:03:58.017279"
+  },
+  {
+    "id": 21,
+    "query": "Quels projets similaires à celui de diagnostics sur le marché du travail dans les gouvernorats tunisiens, réalisés entre 2021 et 2025, concernant la Stratégie Nationale de l’Emploi, ont un budget supérieur à 500k USD et impliquent un client public comme OIT ou MFPE ?",
+    "type": "complex",
+    "source_project": "Diagnostics marché du travail (5 gouvernorats)",
+    "expected_projects": [
+      "Diagnostics marché du travail (5 gouvernorats)",
+      "Formulation de la Stratégie Nationale pour l’Emploi"
+    ],
+    "generated_at": "2026-04-22T12:04:03.156864"
+  },
+  {
+    "id": 22,
+    "query": "Quel est l'impact du dialogue public-privé sur la définition d'un plan marketing stratégique dans le secteur de l'agriculture et agroalimentaire, depuis 2020 avec un budget supérieur à 100k EUR?",
+    "type": "complex",
+    "source_project": "Assistance pour la définition d’un plan marketing 2025",
+    "expected_projects": [
+      "Assistance pour la définition d’un plan marketing 2025",
+      "Stratégie marketplace produits agricoles",
+      "Marché engrais organiques/chimiques",
+      "Dialogue Public-Privé – Assises de l’Innovation",
+      "Due diligence commerciale sur entreprises boissons et snacks"
+    ],
+    "generated_at": "2026-04-22T12:04:07.392152"
+  },
+  {
+    "id": 23,
+    "query": "Quels projets ont été réalisés pour la convergence des institutions publiques en charge de l’investissement au sein d'un secteur socio-économique, avec un budget supérieur à 500k USD, entre 2018 et 2023, pour le compte d'un bailleur de fonds ?",
+    "type": "complex",
+    "source_project": "Convergence des institutions et agences publiques en charge de l’investissement (APII, APIA, ONTT, ONA, FIPA)",
+    "expected_projects": [
+      "Convergence des institutions et agences publiques en charge de l’investissement (APII, APIA, ONTT, ONA, FIPA)",
+      "Diagnostic organisationnel et outils de suivi des investissements"
+    ],
+    "generated_at": "2026-04-22T12:04:12.095068"
+  },
+  {
+    "id": 24,
+    "query": "Quel projet a été réalisé entre 2016 et 2021, concernant une stratégie d'exportation de biens pharmaceutiques dans un pays méditerranéen avec un budget supérieur à 500k USD?",
+    "type": "complex",
+    "source_project": "Stratégie export médicaments humains",
+    "expected_projects": [
+      "Stratégie export médicaments humains",
+      "Due diligence tourisme médical",
+      "Stratégie investissement industrie pharmaceutique"
+    ],
+    "generated_at": "2026-04-22T12:04:16.509872"
+  },
+  {
+    "id": 25,
+    "query": "Quels projets similaires à celui réalisé pour BSIC GROUP entre 2018 et 2023 ont impliqué l'accompagnement stratégique et la gouvernance d'un groupe opérant dans les services financiers sur plusieurs pays africains ?",
+    "type": "complex",
+    "source_project": "Accompagnement du groupe pour le diagnostic et la préparation d’un plan stratégique à moyen terme",
+    "expected_projects": [
+      "Accompagnement du groupe pour le diagnostic et la préparation d’un plan stratégique à moyen terme"
+    ],
+    "generated_at": "2026-04-22T12:04:20.976177"
+  },
+  {
+    "id": 26,
+    "query": "Quelles études ont été réalisées sur la transformation digitale dans les groupes privés tunisiens entre 2018 et 2023, concernant la définition d'une feuille de route opérationnelle et l'ajustement stratégique ?",
+    "type": "complex",
+    "source_project": "Revue stratégie filiale transformation digitale",
+    "expected_projects": [
+      "Revue stratégie filiale transformation digitale",
+      "Plan stratégique pour acteur NTIC",
+      "Étude stratégique cliniques privées",
+      "Elaboration du Plan stratégique 2023-2027"
+    ],
+    "generated_at": "2026-04-22T12:04:25.310345"
+  },
+  {
+    "id": 27,
+    "query": "Quelles études stratégiques sur le secteur des cliniques privées en Tunisie, réalisées pour un client du secteur privé entre 2021 et 2025 et comportant une analyse comparative des modèles d'exploitation ont été menées ?",
+    "type": "complex",
+    "source_project": "Étude stratégique cliniques privées",
+    "expected_projects": [
+      "Étude stratégique cliniques privées",
+      "Évaluation sectorielle et sélection de 2 programmes techniques dans les secteurs de la santé"
+    ],
+    "generated_at": "2026-04-22T12:04:29.768950"
+  },
+  {
+    "id": 28,
+    "query": "Quels projets ont été réalisés en Lean Six Sigma dans les industries manufacturières tunisiennes pour un client public entre 2019 et 2023 avec un budget supérieur à 500k USD ?",
+    "type": "complex",
+    "source_project": "Lean Six Sigma – industrie électrique",
+    "expected_projects": [
+      "Lean Six Sigma – industrie électrique",
+      "Due diligence produits hygiène",
+      "Due diligence acquisition entreprise tomate",
+      "Restructuration fonderie AMS"
+    ],
+    "generated_at": "2026-04-22T12:04:34.093738"
+  },
+  {
+    "id": 29,
+    "query": "Quels projets similaires à une évaluation du système capital humain ont été réalisés pour un client américain dans le secteur de l’enseignement, de l’emploi et de l’entrepreneuriat au cours des 5 dernières années avec un budget supérieur à 500k USD ?",
+    "type": "complex",
+    "source_project": "Évaluation système capital humain (ES/FP)",
+    "expected_projects": [
+      "Évaluation système capital humain (ES/FP)",
+      "Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient",
+      "Évaluation universités tunisiennes"
+    ],
+    "generated_at": "2026-04-22T12:04:38.747667"
+  },
+  {
+    "id": 30,
+    "query": "Quels projets similaires ont été réalisés en Tunisie depuis 2018 pour le Ministère de la Femme, impliquant un benchmarking international et des ateliers avec plusieurs acteurs du secteur?",
+    "type": "complex",
+    "source_project": "Préparation plan action national entrepreneuriat féminin",
+    "expected_projects": [
+      "Préparation plan action national entrepreneuriat féminin",
+      "Évaluation cadre entrepreneuriat féminin",
+      "Accompagnement évaluation cadre entrepreneuriat féminin"
+    ],
+    "generated_at": "2026-04-22T12:04:42.922963"
+  }
+]

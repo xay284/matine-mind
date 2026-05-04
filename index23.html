@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matine Mind</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #9C1F4A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 600px;
+}
+
+/* ── HEADER ── */
+.header {
+  background: #9C1F4A;
+  color: white;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.logo {
+  height: 36px;
+  filter: brightness(0) invert(1);
+  background: rgba(255,255,255,0.15);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.header-text h1 { font-size: 20px; font-weight: 600; }
+.header-text p  { font-size: 12px; opacity: 0.85; margin-top: 2px; }
+
+/* ── CHAT ── */
+.chat-box {
+  flex: 1;
+  padding: 20px 24px;
+  overflow-y: auto;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 620px;
+}
+
+.message { display: flex; align-items: flex-start; gap: 10px; }
+.user-message { justify-content: flex-end; }
+.bot-message  { justify-content: flex-start; }
+
+.avatar {
+  width: 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; flex-shrink: 0; margin-top: 2px;
+}
+.bot-avatar  { background: #9C1F4A; color: white; }
+.user-avatar { background: #D4A5A5; color: white; }
+
+.bubble {
+  max-width: 75%;
+  padding: 11px 15px;
+  border-radius: 14px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  word-wrap: break-word;
+}
+.user-message .bubble { background: #9C1F4A; color: white; border-bottom-right-radius: 4px; }
+.bot-message  .bubble { background: #F4E6EB; color: #333;   border-bottom-left-radius: 4px; }
+
+/* ── TABLE WRAPPER ── */
+.table-wrapper { width: 100%; margin-top: 4px; }
+
+/* ── BARRE META ── */
+.meta-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.meta-label {
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
+/* ── UPLOAD ── */
+.upload-btn {
+  background: white;
+  border: 1.5px solid #9C1F4A;
+  color: #9C1F4A;
+  border-radius: 30px;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.upload-btn:hover { background: #F4E6EB; }
+.upload-btn svg { width: 15px; height: 15px; fill: #9C1F4A; }
+
+.tdr-bubble {
+  background: #FFF8F0;
+  border: 1.5px solid #FFD599;
+  border-radius: 12px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 75%;
+}
+.tdr-icon {
+  width: 34px; height: 34px;
+  background: #FF8C00;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.tdr-icon svg { width: 18px; height: 18px; fill: white; }
+.tdr-name { font-size: 13px; font-weight: 600; color: #7A4500; }
+.tdr-meta { font-size: 11px; color: #B36500; }
+
+.analysis-bubble {
+  background: #F0FAF4;
+  border: 1.5px solid #A5D6A7;
+  border-radius: 12px;
+  padding: 12px 14px;
+  max-width: 88%;
+  font-size: 12.5px;
+}
+.analysis-badge {
+  display: inline-block;
+  background: #E8F5E9; color: #2E7D32;
+  border: 1px solid #A5D6A7;
+  border-radius: 20px;
+  padding: 2px 9px; font-size: 11px; font-weight: 500;
+}
+#tdrFileInput { display: none; }
+
+/* Badges filtres */
+.time-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: #FFF3E0; color: #E65100;
+  border: 1px solid #FFCC80;
+  font-size: 11.5px; font-weight: 600;
+  padding: 3px 10px; border-radius: 20px;
+}
+.time-badge svg { width: 13px; height: 13px; fill: #E65100; flex-shrink: 0; }
+
+.budget-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: #E8F5E9; color: #2E7D32;
+  border: 1px solid #A5D6A7;
+  font-size: 11.5px; font-weight: 600;
+  padding: 3px 10px; border-radius: 20px;
+}
+.budget-badge svg { width: 13px; height: 13px; fill: #2E7D32; flex-shrink: 0; }
+
+/* ── EXPORT BAR ── */
+.export-bar {
+  display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap;
+}
+.export-btn {
+  display: flex; align-items: center; gap: 6px;
+  background: #9C1F4A; color: white;
+  border: none; padding: 7px 14px;
+  border-radius: 20px; font-size: 12px;
+  font-weight: 500; cursor: pointer; transition: 0.2s;
+}
+.export-btn:hover { background: #7F183B; }
+.export-btn svg { width: 14px; height: 14px; fill: white; }
+
+/* ── TOR TABLE ── */
+.tor-table-container {
+  overflow-x: auto;
+  border: 1px solid #e5d0d8;
+  border-radius: 10px;
+}
+.tor-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 12.5px; min-width: 500px;
+}
+
+/* Ligne 0 header : groupes */
+.tor-table thead tr.hdr0 th {
+  background: #9C1F4A; color: white;
+  font-weight: 600; padding: 9px 12px; font-size: 12px;
+}
+.tor-table thead tr.hdr0 th.group-score {
+  background: #6B1535;   /* légèrement plus sombre pour différencier */
+  text-align: center;
+  border-left: 2px solid rgba(255,255,255,0.3);
+}
+.tor-table thead tr.hdr0 th.tor-group {
+  background: #7F183B; text-align: center;
+}
+
+/* Ligne 1 header : colonnes */
+.tor-table thead tr.hdr1 th {
+  background: #9C1F4A; color: white;
+  font-weight: 500; font-size: 11px;
+  padding: 7px 8px; text-align: center; white-space: nowrap;
+}
+.tor-table thead tr.hdr1 th.col-projet { text-align: left; }
+
+/* Colonne Score Global — fond distinct */
+.tor-table thead tr.hdr1 th.col-score-global {
+  background: #6B1535;
+  border-left: 2px solid rgba(255,255,255,0.3);
+}
+.tor-table td.td-score-global {
+  border-left: 2px solid #e5d0d8;
+  background: #FDF5F8;
+}
+
+.tor-table tbody tr { border-bottom: 1px solid #f0e0e7; }
+.tor-table tbody tr:last-child { border-bottom: none; }
+.tor-table tbody tr:nth-child(even) { background: #FBF2F6; }
+.tor-table tbody tr:nth-child(even) .td-score-global { background: #F7EDF2; }
+.tor-table tbody tr:hover { background: #f5e6ec; }
+.tor-table tbody tr:hover .td-score-global { background: #F0E0E8; }
+.tor-table td { padding: 9px 10px; vertical-align: middle; color: #333; }
+
+.td-projet {
+  font-weight: 600; color: #9C1F4A;
+  font-size: 12px; line-height: 1.4; max-width: 260px;
+}
+.td-center { text-align: center; }
+.td-year   { text-align: center; color: #666; font-size: 11.5px; font-weight: 600; }
+
+/* Score global — badge circulaire */
+.score-global-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+}
+.score-global-ring {
+  position: relative;
+  width: 42px; height: 42px;
+}
+.score-global-ring svg {
+  transform: rotate(-90deg);
+  width: 42px; height: 42px;
+}
+.score-global-ring .ring-bg {
+  fill: none;
+  stroke: #f0e0e7;
+  stroke-width: 3.5;
+}
+.score-global-ring .ring-val {
+  fill: none;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.6s ease;
+}
+.score-global-label {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10px; font-weight: 700;
+  line-height: 1;
+}
+
+/* Score critère — barre mince */
+.crit-score-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 4px;
+}
+.crit-bar-track {
+  width: 100%; min-width: 44px; height: 6px;
+  background: #f0e0e7;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.crit-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+.crit-score-label {
+  font-size: 10px; font-weight: 600;
+}
+
+/* ── INPUT ── */
+.input-area {
+  padding: 14px 20px; border-top: 1px solid #eee;
+  display: flex; gap: 10px; background: white;
+}
+#messageInput {
+  flex: 1; border: 1px solid #ddd; border-radius: 30px;
+  padding: 11px 18px; font-size: 13.5px; outline: none;
+  font-family: inherit;
+}
+#messageInput:focus { border-color: #9C1F4A; }
+#sendBtn {
+  background: #9C1F4A; color: white; border: none;
+  padding: 10px 22px; border-radius: 30px;
+  font-weight: 500; font-size: 13.5px; cursor: pointer; transition: 0.2s;
+}
+#sendBtn:hover    { background: #7F183B; }
+#sendBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.tor-table thead tr.hdr1 th:not(.col-projet) { min-width: 70px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <img src="./static/logo_matine.png" class="logo" onerror="this.style.display='none'">
+    <div class="header-text">
+      <h1>Matine Mind</h1>
+      <p>AI Knowledge Assistant — Références Projets</p>
+    </div>
+  </div>
+
+  <div class="chat-box" id="chatBox">
+    <div class="message bot-message">
+      <div class="avatar bot-avatar">🤖</div>
+      <div class="bubble">Bonjour ! Posez-moi une question ! 😊</div>
+    </div>
+  </div>
+
+  <div class="input-area">
+    <input type="file" id="tdrFileInput" accept=".pdf,.docx,.doc" onchange="handleTdrUpload(event)">
+    <button class="upload-btn" onclick="document.getElementById('tdrFileInput').click()">
+      <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zm-5 6l3-3 3 3h-2v3h-2v-3H8z"/></svg>
+      Envoyer un TDR
+    </button>
+    <input type="text" id="messageInput" placeholder="Ou tapez votre question directement…" autocomplete="off"/>
+    <button id="sendBtn" onclick="sendMessage()">Envoyer</button>
+  </div>
+
+</div>
+
+<script>
+const API_URL     = "http://127.0.0.1:5000/ask";
+const EXPORT_WORD = "http://127.0.0.1:5000/export/word";
+const EXPORT_PDF  = "http://127.0.0.1:5000/export/pdf";
+const API_UPLOAD  = "http://127.0.0.1:5000/upload_tdr";
+
+let lastTableData = null;
+let lastQuery     = "";
+
+// ══════════════════════════════════════════════════════════════
+// HELPERS VISUELS
+// ══════════════════════════════════════════════════════════════
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/**
+ * Retourne la couleur d'un score (0-100)
+ * vert ≥70 | orange ≥40 | rouge <40
+ */
+function scoreColor(score) {
+  if (score >= 70) return '#1D9E75';
+  if (score >= 40) return '#BA7517';
+  return '#E24B4A';
+}
+
+/**
+ * Crée la cellule "Score Global" avec un anneau SVG.
+ */
+function makeScoreGlobalCell(score) {
+  const color   = scoreColor(score);
+  const r       = 16;
+  const circ    = 2 * Math.PI * r;
+  const offset  = circ * (1 - score / 100);
+
+  const cell = document.createElement('td');
+  cell.className = 'td-center td-score-global';
+
+  cell.innerHTML = `
+    <div class="score-global-cell">
+      <div class="score-global-ring">
+        <svg viewBox="0 0 42 42">
+          <circle class="ring-bg" cx="21" cy="21" r="${r}"/>
+          <circle class="ring-val"
+            cx="21" cy="21" r="${r}"
+            stroke="${color}"
+            stroke-dasharray="${circ}"
+            stroke-dashoffset="${offset}"
+          />
+        </svg>
+        <span class="score-global-label" style="color:${color};">${Math.round(score)}%</span>
+      </div>
+    </div>`;
+  return cell;
+}
+
+/**
+ * Crée la cellule d'un score de critère avec barre fine.
+ */
+function makeCritScoreCell(score) {
+  const color = score >= 70 ? '#1D9E75' : score >= 40 ? '#BA7517' : '#E24B4A';
+  const empty = '#f0e0e7';
+
+  const h3 = Math.round((score / 100) * 20);
+  const h2 = Math.round((Math.min(score, 66) / 66) * 16);
+  const h1 = Math.round((Math.min(score, 33) / 33) * 12);
+
+  const bar = (h, maxH) => {
+    const filled     = h > 0       ? `<div style="width:6px;height:${h}px;border-radius:2px 2px 0 0;background:${color};"></div>` : '';
+    const empty_part = maxH - h > 0 ? `<div style="width:6px;height:${maxH - h}px;border-radius:2px 2px 0 0;background:${empty};"></div>` : '';
+    return `<div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:${maxH}px;">${empty_part}${filled}</div>`;
+  };
+
+  const cell = document.createElement('td');
+  cell.className = 'td-center';
+  cell.innerHTML = `
+    <div style="display:flex;flex-direction:column;align-items:center;gap:3px;">
+      <div style="display:flex;align-items:flex-end;justify-content:center;gap:2px;height:22px;">
+        ${bar(h1, 12)}
+        ${bar(h2, 16)}
+        ${bar(h3, 20)}
+      </div>
+      <span style="font-size:10px;font-weight:600;color:${color};">${Math.round(score)}%</span>
+    </div>`;
+  return cell;
+}
+// ══════════════════════════════════════════════════════════════
+// MESSAGES
+// ══════════════════════════════════════════════════════════════
+
+function addMessage(text, sender) {
+  const chatBox = document.getElementById('chatBox');
+  const div     = document.createElement('div');
+  div.className = `message ${sender}-message`;
+  div.id        = 'msg-' + Date.now() + '-' + Math.random().toString(36).substr(2,5);
+
+  const avatar = document.createElement('div');
+  avatar.className = `avatar ${sender}-avatar`;
+  avatar.textContent = sender === 'user' ? '👤' : '🤖';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  bubble.textContent = text;
+
+  if (sender === 'user') { div.appendChild(bubble); div.appendChild(avatar); }
+  else                   { div.appendChild(avatar); div.appendChild(bubble); }
+  chatBox.appendChild(div);
+  chatBox.scrollTop = chatBox.scrollHeight;
+  return div.id;
+}
+
+function removeMessage(id) {
+  const m = document.getElementById(id);
+  if (m) m.remove();
+}
+
+// ══════════════════════════════════════════════════════════════
+// TABLEAU TOR
+// ══════════════════════════════════════════════════════════════
+
+function addTorTable(tableData, query) {
+  const chatBox  = document.getElementById('chatBox');
+  const criteres = tableData.criteres   || [];
+  const projets  = tableData.projets    || [];
+  const contr    = tableData.contrainte || {};
+  const contrB   = tableData.contrainte_budget || {};
+
+  if (!projets.length) {
+    addMessage("Aucun projet trouvé pour cette recherche.", 'bot');
+    return;
+  }
+
+  const div = document.createElement('div');
+  div.className = 'message bot-message';
+  div.style.alignItems = 'flex-start';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar bot-avatar';
+  avatar.textContent = '🤖';
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'table-wrapper';
+
+  // ── Barre meta ──
+  const metaBar = document.createElement('div');
+  metaBar.className = 'meta-bar';
+
+  const metaLabel = document.createElement('span');
+  metaLabel.className = 'meta-label';
+  metaLabel.textContent = `${projets.length} projet(s) — critères : ${criteres.join(', ')}`;
+  metaBar.appendChild(metaLabel);
+
+  if (contr.type && contr.type !== 'aucune' && contr.description) {
+    const badge = document.createElement('span');
+    badge.className = 'time-badge';
+    badge.innerHTML = `
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+      ${escHtml(contr.description)}`;
+    metaBar.appendChild(badge);
+  }
+  if (contrB.type && contrB.type !== 'aucune' && contrB.description) {
+    const badgeB = document.createElement('span');
+    badgeB.className = 'budget-badge';
+    badgeB.innerHTML = `
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+      ${escHtml(contrB.description)}`;
+    metaBar.appendChild(badgeB);
+  }
+  wrapper.appendChild(metaBar);
+
+  // ── Boutons export ──
+  const bar     = document.createElement('div');
+  bar.className = 'export-bar';
+
+  const btnWord = document.createElement('button');
+  btnWord.className = 'export-btn';
+  btnWord.innerHTML = `<svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM15 2v5h5M8 13h2l2 5 2-5h2"/></svg> Exporter Word`;
+  btnWord.onclick = () => exportFile(EXPORT_WORD, 'matine_mind_projets.docx');
+
+  const btnPdf = document.createElement('button');
+  btnPdf.className = 'export-btn';
+  btnPdf.innerHTML = `<svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM15 2v5h5M9 17v-5M12 17v-2M15 17v-3"/></svg> Exporter PDF`;
+  btnPdf.onclick = () => exportFile(EXPORT_PDF, 'matine_mind_projets.pdf');
+
+  bar.appendChild(btnWord);
+  bar.appendChild(btnPdf);
+  wrapper.appendChild(bar);
+
+  // ── Tableau ──
+  const tableContainer = document.createElement('div');
+  tableContainer.className = 'tor-table-container';
+
+  const table = document.createElement('table');
+  table.className = 'tor-table';
+
+  // ── THEAD ligne 0 : groupes de colonnes ──
+  const thead = document.createElement('thead');
+  const hdr0  = document.createElement('tr');
+  hdr0.className = 'hdr0';
+
+  // Groupe "Project" : Projet + Année + Budget + Client + Pays = 5 cols
+  const th0p = document.createElement('th');
+  th0p.colSpan = 5;
+  th0p.textContent = 'Project';
+  th0p.style.textAlign = 'left';
+  hdr0.appendChild(th0p);
+
+  // Groupe "Score Global" : 1 colonne indépendante
+  const th0s = document.createElement('th');
+  th0s.colSpan = 1;
+  th0s.className = 'group-score';
+  th0s.textContent = 'Score Global';
+  hdr0.appendChild(th0s);
+
+  // Groupe critères TOR
+  if (criteres.length > 0) {
+    const th0t = document.createElement('th');
+    th0t.colSpan = criteres.length;
+    th0t.className = 'tor-group';
+    th0t.textContent = 'Key subjects related to the TOR';
+    hdr0.appendChild(th0t);
+  }
+  thead.appendChild(hdr0);
+
+  // ── THEAD ligne 1 : noms de colonnes ──
+  const hdr1 = document.createElement('tr');
+  hdr1.className = 'hdr1';
+
+  ['Projet', 'Année', 'Budget', 'Client', 'Pays'].forEach((col, i) => {
+    const th = document.createElement('th');
+    th.textContent = col;
+    if (i === 0) th.className = 'col-projet';
+    hdr1.appendChild(th);
+  });
+
+  // Colonne Score Global — header distinct
+  const thScore = document.createElement('th');
+  thScore.textContent = 'CrossEncoder';
+  thScore.className = 'col-score-global';
+  thScore.title = 'Score de pertinence global calculé par le CrossEncoder (déterministe)';
+  hdr1.appendChild(thScore);
+
+  // Colonnes critères
+  criteres.forEach(crit => {
+    const th = document.createElement('th');
+    th.textContent = crit;
+    th.title = crit;
+    hdr1.appendChild(th);
+  });
+  thead.appendChild(hdr1);
+  table.appendChild(thead);
+
+  // ── TBODY ──
+  const tbody = document.createElement('tbody');
+  projets.forEach(projet => {
+    const tr       = document.createElement('tr');
+    const matching = projet.matching || {};
+
+    // Projet (sans badge pertinence — maintenant dans colonne dédiée)
+    const tdP = document.createElement('td');
+    tdP.className = 'td-projet';
+    tdP.textContent = projet.titre || 'N/A';
+    tr.appendChild(tdP);
+
+    // Année
+    const tdY = document.createElement('td');
+    tdY.className = 'td-year';
+    tdY.textContent = projet.annee || 'N/A';
+    tr.appendChild(tdY);
+
+    // Budget
+    const tdB = document.createElement('td');
+    tdB.className = 'td-center';
+    tdB.style.fontSize = '11px';
+    tdB.style.color = '#555';
+    tdB.textContent = projet.budget || 'N/A';
+    tr.appendChild(tdB);
+
+    // Client
+    const tdC = document.createElement('td');
+    tdC.className = 'td-center';
+    tdC.style.fontSize = '11.5px';
+    tdC.textContent = projet.client || 'N/A';
+    tr.appendChild(tdC);
+
+    // Pays
+    const tdPa = document.createElement('td');
+    tdPa.className = 'td-center';
+    tdPa.style.fontSize = '11.5px';
+    tdPa.textContent = projet.pays || 'N/A';
+    tr.appendChild(tdPa);
+
+    // ── SCORE GLOBAL (colonne indépendante) ──
+    const scoreGlobal = projet.pertinence != null ? projet.pertinence : 0;
+    tr.appendChild(makeScoreGlobalCell(scoreGlobal));
+
+    // ── SCORES PAR CRITÈRE ──
+    criteres.forEach(crit => {
+      const raw   = matching[crit];
+      const score = typeof raw === 'boolean'
+        ? (raw ? 100 : 0)
+        : (typeof raw === 'number' ? raw : 0);
+      tr.appendChild(makeCritScoreCell(score));
+    });
+
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(tbody);
+  tableContainer.appendChild(table);
+  wrapper.appendChild(tableContainer);
+
+  div.appendChild(avatar);
+  div.appendChild(wrapper);
+  chatBox.appendChild(div);
+  chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+// ══════════════════════════════════════════════════════════════
+// UPLOAD TDR
+// ══════════════════════════════════════════════════════════════
+
+async function handleTdrUpload(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  event.target.value = '';
+
+  const chatBox = document.getElementById('chatBox');
+  const userDiv = document.createElement('div');
+  userDiv.className = 'message user-message';
+  userDiv.innerHTML = `
+    <div class="tdr-bubble">
+      <div class="tdr-icon">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zm-5 6l3-3 3 3h-2v3h-2v-3H8z"/></svg>
+      </div>
+      <div>
+        <div class="tdr-name">${escHtml(file.name)}</div>
+        <div class="tdr-meta">${file.type.includes('pdf') ? 'PDF' : 'DOCX'} · ${(file.size/1024).toFixed(0)} Ko</div>
+      </div>
+    </div>
+    <div class="avatar user-avatar">👤</div>`;
+  chatBox.appendChild(userDiv);
+
+  const loadId = addMessage('⏳ Analyse du TDR en cours…', 'bot');
+  document.getElementById('sendBtn').disabled = true;
+
+  try {
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const response = await fetch(API_UPLOAD, { method: 'POST', body: formData });
+    removeMessage(loadId);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const data = await response.json();
+    if (data.error) { addMessage('❌ ' + data.error, 'bot'); return; }
+
+    if (data.tdr_analysis) {
+      const a = data.tdr_analysis;
+      const besoins = (a.besoin_client || []).slice(0, 6);
+      const badgesHtml = besoins
+        .map(b => `<span class="analysis-badge">${escHtml(b.substring(0,45))}</span>`)
+        .join('');
+      const anaDiv = document.createElement('div');
+      anaDiv.className = 'message bot-message';
+      anaDiv.innerHTML = `
+        <div class="avatar bot-avatar">🤖</div>
+        <div class="analysis-bubble">
+          <div style="font-size:11px;font-weight:600;color:#2E7D32;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">Analyse TDR — Besoin client extrait</div>
+          ${a.contexte ? `<div style="font-size:12px;color:#333;margin-bottom:8px;"><strong>Contexte :</strong> ${escHtml(a.contexte.substring(0,200))}…</div>` : ''}
+          <div style="font-size:11px;font-weight:600;color:#2E7D32;margin-bottom:5px;">Livrables identifiés (${besoins.length})</div>
+          <div style="display:flex;flex-wrap:wrap;gap:5px;">${badgesHtml}</div>
+          ${a.contrainte_temporelle ? `<div style="margin-top:8px;font-size:11.5px;color:#555;">Durée : ${escHtml(a.contrainte_temporelle)}</div>` : ''}
+          ${a.contrainte_budget     ? `<div style="font-size:11.5px;color:#555;">Budget : ${escHtml(a.contrainte_budget)}</div>` : ''}
+        </div>`;
+      chatBox.appendChild(anaDiv);
+    }
+
+    if (data.answer) addMessage(data.answer, 'bot');
+    if (data.table?.projets?.length > 0) {
+      lastTableData = data.table;
+      lastQuery     = file.name;
+      addTorTable(data.table, file.name);
+    } else {
+      addMessage('Aucun projet trouvé pour ce TDR.', 'bot');
+    }
+  } catch (err) {
+    removeMessage(loadId);
+    addMessage('❌ Erreur : ' + err.message, 'bot');
+  } finally {
+    document.getElementById('sendBtn').disabled = false;
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// EXPORT
+// ══════════════════════════════════════════════════════════════
+
+async function exportFile(url, filename) {
+  if (!lastTableData) { alert("Faites d'abord une recherche."); return; }
+  try {
+    const resp = await fetch(url, {
+      method  : 'POST',
+      headers : { 'Content-Type': 'application/json' },
+      body    : JSON.stringify({ table: lastTableData, query: lastQuery })
+    });
+    if (!resp.ok) { const e = await resp.json(); alert("Erreur : " + (e.error || resp.status)); return; }
+    const blob = await resp.blob();
+    const a    = document.createElement('a');
+    a.href     = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  } catch (err) { alert("Erreur : " + err.message); }
+}
+
+// ══════════════════════════════════════════════════════════════
+// ENVOI MESSAGE
+// ══════════════════════════════════════════════════════════════
+
+async function sendMessage() {
+  const input   = document.getElementById('messageInput');
+  const button  = document.getElementById('sendBtn');
+  const message = input.value.trim();
+  if (!message) return;
+
+  addMessage(message, 'user');
+  input.value     = '';
+  lastQuery       = message;
+  const loadId    = addMessage('⏳ Recherche en cours…', 'bot');
+  button.disabled = true;
+
+  try {
+    const response = await fetch(API_URL, {
+      method  : 'POST',
+      headers : { 'Content-Type': 'application/json' },
+      body    : JSON.stringify({ query: message })
+    });
+
+    removeMessage(loadId);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const data = await response.json();
+    if (data.error) { addMessage('❌ ' + data.error, 'bot'); return; }
+
+    if (data.answer) addMessage(data.answer, 'bot');
+
+    if (data.table?.projets?.length > 0) {
+      lastTableData = data.table;
+      addTorTable(data.table, message);
+    } else {
+      addMessage('Aucun projet trouvé pour cette recherche.', 'bot');
+    }
+  } catch (err) {
+    removeMessage(loadId);
+    addMessage('❌ Erreur : ' + err.message, 'bot');
+  } finally {
+    button.disabled = false;
+  }
+}
+
+document.getElementById('messageInput').addEventListener('keypress', e => {
+  if (e.key === 'Enter') sendMessage();
+});
+</script>
+</body>
+</html>

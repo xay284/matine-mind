@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "pertinence_avg": 0.74,
+    "complétude_avg": 0.52,
+    "format_avg": 0.89,
+    "hallucination_avg": 0.0,
+    "global_avg": 0.63
+  },
+  "results": [
+    {
+      "question": "Avons-nous des références sur les études de marché TIC en Afrique ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation sectorielle TIC – sélection programme\n\n    🌍  Pays        : MENA\n    🏢  Client      : EFE\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 100.0%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo\n\n    🌍  Pays        : Togo\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 92.5%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : EFE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 88.5999984741211%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Enquête sur le changement climatique et préparation des entreprises à l’action climatique (Africa CCDR green surveys)\n\n    🌍  Pays        : Côte d’Ivoire\n    🏢  Client      : IFC\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 67.5999984741211%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Analyse des besoins dans le secteur des TIC\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Education For Employment\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 65.30000305175781%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Cadre compétences numériques – Congo\n\n    🌍  Pays        : Congo\n    🏢  Client      : Ministère des Postes, des télécommunications et de l'économie numérique/ BM\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 62.0%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Marché engrais organiques/chimiques\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Poulina Group\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 61.5%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Plan stratégique pour acteur NTIC\n\n    🌍  Pays        : Région MENA\n    🏢  Client      : Entreprise spécialisée dans les NTIC\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 60.79999923706055%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Définition d’une cible d’expansion en Afrique du Nord ou Afrique Subsaharienne pour un acteur de terminaux mobiles et établissement d’un business plan\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Fonds d’investissement régional / opérateur de terminaux mobiles\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 55.900001525878906%\n    💬  ✓ étude de marché TIC ✓ Afrique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude du marché du leasing équipements agricoles et médicaux\n\n    🌍  Pays        : Togo\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 50.900001525878906%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nAvez-vous besoin d'autres informations sur ces projets ?\n\n\n",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.6,
+          "justification": "Certains projets sont pertinents (études de marché TIC en Afrique), mais d'autres ne le sont pas (agriculture, énergie...). La pertinence est donc mitigée."
+        },
+        "complétude": {
+          "score": 0.4,
+          "justification": "10 projets sont listés, ce qui peut paraître suffisant. Cependant, la pertinence de certains projets est faible, il faudrait affiner les résultats."
+        },
+        "format": {
+          "score": 0.8,
+          "justification": "La réponse est structurée avec des titres clairs et des informations organisées par catégories. La lisibilité est bonne."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Pas d'information inventée dans la réponse."
+        },
+        "score_global": 0.5,
+        "commentaire": "Le chatbot fournit une base de résultats pertinents, mais la qualité des résultats est variable. Il faudrait améliorer l'algorithme pour mieux filtrer les projets non pertinents et proposer un nombre plus précis de résultats pertinents."
+      }
+    },
+    {
+      "question": "Quels projets avons-nous réalisés pour la Banque Mondiale ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Analyse secteur financier & inclusion financière\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Services financiers\n    📊  Pertinence  : 100.0%\n    💬  ✓ Client IFC ✓ Finance\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Dialogue Public-Privé – Assises de l’Innovation\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : IFC / Ministère Éco. Tunisie\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 97.19999694824219%\n    💬  ✓ Dialogue Public-Privé ✓ Innovation\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Elaboration du Plan stratégique 2023-2027\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : BMICE\n    🏷️   Secteur     : Services financiers\n    📊  Pertinence  : 96.5%\n    💬  ✓ Client BMICE ✓ Finance\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : BM / MDICI\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 73.5%\n    💬  ✓ Diagnostic macro-économique ✓ Dévéloppement économique tunisien\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Design et implémentation de mécanismes de coordination – Delivery Unit\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Banque Mondiale\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 69.0999984741211%\n    💬  ✓ Client Banque Mondiale ✓ Coordination\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Digitalisation paiements & financement chaînes agricoles\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 68.5%\n    💬  ✓ Client IFC ✓ Financement Agricole\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Assurance agricole indicielle (olives, dattes, céréales)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 66.19999694824219%\n    💬  ✓ Client IFC ✓ Assurance Agricole\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostic du niveau de développement économique et social des régions et définition et priorisation des politiques\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : BM/ / Gouv. tunisien\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 57.599998474121094%\n    💬  ✓ Diagnostic ✓ Dévéloppement économique et social\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude sectorielle dattes algériennes\n\n    🌍  Pays        : Algérie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 53.900001525878906%\n    💬  ✓ Client IFC ✓ Étude sectorielle\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Définition de la note d’orientation et vision du plan de développement\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Ministère de l’Économie et de la Planification\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 51.900001525878906%\n    💬  ✓ Client Ministère\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nAvez-vous besoin de plus d'informations sur l'un de ces projets ?\n\n\n",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.8,
+          "justification": "La plupart des projets semblent pertinents pour la Banque Mondiale, mais certains sont liés à l'IFC (filiale de la BM) et pourraient être considérés comme moins pertinents."
+        },
+        "complétude": {
+          "score": 0.6,
+          "justification": "10 projets sont listés, ce qui semble suffisant pour une première réponse. Cependant, il est difficile de juger si c'est exhaustif sans connaître le nombre total de projets réalisés pour la BM."
+        },
+        "format": {
+          "score": 0.9,
+          "justification": "La réponse est bien structurée avec des titres clairs et des informations organisées par catégories. La lisibilité est bonne."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée semble être présente dans la réponse."
+        },
+        "score_global": 0.7,
+        "commentaire": "La réponse est globalement satisfaisante, mais pourrait être améliorée en clarifiant la distinction entre les projets réalisés directement pour la Banque Mondiale et ceux réalisés pour ses filiales."
+      }
+    },
+    {
+      "question": "Donnez-moi des références sur la formation professionnelle et l'emploi des jeunes en Tunisie.",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostics marché du travail (5 gouvernorats)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 100.0%\n    💬  ✓ marché du travail ✓ emploi ✓ jeunes\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Assistance diagnostic marché de l’emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Ministère de l’Emploi / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 85.69999694824219%\n    💬  ✓ marché du travail ✓ emploi\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Actualisation Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 59.79999923706055%\n    💬  ✓ emploi ✓ stratégie nationale \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation SNE à horizon 2030 (extension)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 58.5%\n    💬  ✓ emploi ✓ stratégie nationale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Cadre de gouvernance SNE & SNET + SI de suivi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / PNUD\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 56.599998474121094%\n    💬  ✓ gouvernance SNE ✓ emploi\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation rapide impact COVID-19 sur emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 55.5%\n    💬  ✓ impact COVID-19 ✓ emploi\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation universités tunisiennes\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Gouv. tunisien\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 55.099998474121094%\n    💬  ✓ universités ✓ formation\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation de la Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 48.79999923706055%\n    💬  ✓ emploi ✓ stratégie nationale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Analyse des besoins dans le secteur des TIC\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Education For Employment\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 44.400001525878906%\n    💬  ✓ besoins dans le secteur des TIC \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Mise à jour du référentiel des métiers TIC et analyse des écarts de plans d'étude\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : EFE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 44.20000076293945%\n    💬  ✓ métiers TIC ✓ formation \n\n\n\n Voulez-vous que j'approfondisse l'analyse de ces projets ?",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.8,
+          "justification": "La plupart des projets concernent l'emploi et la formation professionnelle en Tunisie, mais certains sont trop larges (ex : analyse des besoins dans le secteur des TIC)."
+        },
+        "complétude": {
+          "score": 0.6,
+          "justification": "10 projets sont listés, ce qui est un bon début, mais il manque de détails sur chaque projet pour évaluer sa pertinence réelle."
+        },
+        "format": {
+          "score": 0.9,
+          "justification": "La réponse est structurée et lisible grâce à la liste des projets avec leurs informations clés. Le score n'est pas parfait car le format pourrait être amélioré (ex : liens vers les projets)."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée détectée."
+        },
+        "score_global": 0.7,
+        "commentaire": "La réponse est globalement pertinente et bien structurée, mais manque de détails sur les projets et certains sont trop larges par rapport à la question initiale."
+      }
+    },
+    {
+      "question": "Avons-nous travaillé sur des projets liés à l'hydrogène vert ou aux énergies renouvelables ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Études faisabilité mobilité électrique\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : ANME\n    🏷️   Secteur     : Logistique & Mobilité\n    📊  Pertinence  : 100.0%\n    💬  ✓ \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Cadre investissement hydrogène vert\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : GIZ\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 97.0%\n    💬  ✓ hydrogène vert ✓ energies renouvelables\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Benchmark talents énergies renouvelables\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : GIZ KSA\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 81.4000015258789%\n    💬  ✓ énergies renouvelables\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Renforcement société civile – H2Vert\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : GIZ\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 71.0%\n    💬  ✓ hydrogène vert ✓ energies renouvelables\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Revue stratégie filiale transformation digitale\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Mejda Tunisie\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 65.69999694824219%\n    💬  ✓ \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation de la Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 62.70000076293945%\n    💬  ✓ \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Compétences chaîne hydrogène vert\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : UNIDO\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 62.400001525878906%\n    💬  ✓ hydrogène vert ✓ energies renouvelables\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo\n\n    🌍  Pays        : Togo\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 61.0%\n    💬  ✓ \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation cadre entrepreneuriat féminin\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Ministère de la Condition Féminine\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 51.5%\n    💬  ✓ \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude de faisabilité technique et financière de la chaîne de valeur du soja au Togo\n\n    🌍  Pays        : Togo\n    🏢  Client      : GGGI\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 47.900001525878906%\n    💬  ✓ \n\n\nAvez-vous besoin d'informations supplémentaires sur l'un de ces projets ?",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.8,
+          "justification": "La plupart des projets sont pertinents car ils mentionnent l'hydrogène vert ou les énergies renouvelables. Cependant, certains projets comme 'Étude approfondie et évaluation du marché des chaînes de valeur...' ne semblent pas directement liés à la question."
+        },
+        "complétude": {
+          "score": 0.6,
+          "justification": "Le chatbot a retourné plusieurs projets pertinents, mais il est difficile de savoir si c'est exhaustif. La phrase 'Avez-vous besoin d'informations supplémentaires...' suggère qu'il pourrait y avoir plus de projets."
+        },
+        "format": {
+          "score": 0.9,
+          "justification": "La réponse est bien structurée avec une lisibilité claire grâce à la mise en forme des informations par projet."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Il n'y a pas d'indication d'informations inventées par le chatbot."
+        },
+        "score_global": 0.7,
+        "commentaire": "Le chatbot fournit une réponse pertinente et structurée, mais il manque de précision quant à l'exhaustivité des résultats. La pertinence globale est bonne, mais quelques projets pourraient être moins liés à la question."
+      }
+    },
+    {
+      "question": "Quels sont nos projets dans le secteur agricole au Maghreb ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Stratégie marketplace produits agricoles\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : AGROBOURSE\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 100.0%\n    💬  ✓ agriculture ✓Tunisie \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude sectorielle dattes algériennes\n\n    🌍  Pays        : Algérie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 74.5999984741211%\n    💬  ✓ agriculture ✓Algérie \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude approfondie et évaluation du marché des chaînes de valeur de la noix de cajou et des engrais au Togo\n\n    🌍  Pays        : Togo\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 59.0%\n    💬  ✓ agriculture  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Développement services données satellitaires chaîne oléicole\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Orange SA\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 58.70000076293945%\n    💬  ✓ agriculture ✓Tunisie \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Assistance pour la définition d’un plan marketing 2025\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : ORIENT TEA\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 34.79999923706055%\n    💬  ✓ agriculture ✓Tunisie \n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n\n\nAvez-vous besoin d'informations complémentaires sur un projet en particulier ? \n\n\n",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.8,
+          "justification": "La plupart des projets sont pertinents pour le secteur agricole au Maghreb. Cependant, l'étude sur les chaînes de valeur du Togo est moins pertinente."
+        },
+        "complétude": {
+          "score": 0.6,
+          "justification": "10 projets sont mentionnés, ce qui peut être considéré comme suffisant. Cependant, il manque d'informations sur la taille et l'impact des projets."
+        },
+        "format": {
+          "score": 0.9,
+          "justification": "La réponse est bien structurée avec une lisibilité facilitée par les puces et les champs de données."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée détectée."
+        },
+        "score_global": 0.7,
+        "commentaire": "La réponse est globalement satisfaisante, mais pourrait être améliorée en fournissant plus d'informations sur chaque projet et en filtrant davantage les résultats pour une meilleure pertinence."
+      }
+    },
+    {
+      "question": "Avons-nous des références sur la stratégie nationale pour l'emploi ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Assistance diagnostic marché de l’emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Ministère de l’Emploi / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 100.0%\n    💬  ✓ marché de l'emploi ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation de la Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 89.5%\n    💬  ✓ Stratégie Nationale pour l’Emploi ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostics marché du travail (5 gouvernorats)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 86.4000015258789%\n    💬  ✓ marché du travail ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation SNE à horizon 2030 (extension)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 81.4000015258789%\n    💬  ✓ Stratégie Nationale pour l’Emploi ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Actualisation Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 79.5999984741211%\n    💬  ✓ Stratégie Nationale pour l’Emploi ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Cadre de gouvernance SNE & SNET + SI de suivi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / PNUD\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 68.4000015258789%\n    💬  ✓ Stratégie Nationale pour l’Emploi ✓ OIT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Stratégie nationale d’amélioration du climat des affaires\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : IBRD/ Gouv. tunisien\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 63.900001525878906%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Accompagnement du groupe pour le diagnostic et la préparation d’un plan stratégique à moyen terme\n\n    🌍  Pays        : Tunisie, Sénégal, Mali, Tchad, Bénin, Côte d'Ivoire, Soudan\n    🏢  Client      : BSIC GROUP\n    🏷️   Secteur     : Services financiers\n    📊  Pertinence  : 61.599998474121094%\n    💬  ✓ Stratégie Nationale pour l’Emploi ✓ plan stratégique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostic macro-économique du modèle de développement économique tunisien et de son rendement social\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : BM / MDICI\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 47.20000076293945%\n    💬  \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation rapide impact COVID-19 sur emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 23.799999237060547%\n    💬  ✓ marché de l'emploi ✓ OIT\n\n\nSouhaitez-vous voir les projets avec une pertinence supérieure à 80%?\n\n\n\n",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.8,
+          "justification": "La plupart des projets sont pertinents car ils concernent l'emploi ou la stratégie nationale pour l'emploi en Tunisie. Cependant, certains projets comme le diagnostic macro-économique ou l'évaluation rapide de l'impact du COVID-19 sur l'emploi sont moins pertinents."
+        },
+        "complétude": {
+          "score": 0.6,
+          "justification": "Le chatbot a retourné plusieurs projets pertinents, mais il n'est pas clair si c'est exhaustivement la liste de tous les projets pertinents. La question de complétude dépendrait de la taille du catalogue de projets."
+        },
+        "format": {
+          "score": 0.9,
+          "justification": "La réponse est bien structurée avec une lisibilité facilitée par l'utilisation de puces et des champs clairs pour chaque projet. L'organisation est efficace."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Il n'y a pas d'indication d'informations inventées par le chatbot."
+        },
+        "score_global": 0.7,
+        "commentaire": "Le chatbot fournit une réponse pertinente et bien structurée, mais la complétude des résultats est incertaine. "
+      }
+    },
+    {
+      "question": "Donnez-moi des projets liés au diagnostic du marché du travail.",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Assistance diagnostic marché de l’emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Ministère de l’Emploi / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 100.0%\n    💬  ✓ diagnostic marché du travail ✓ emploi\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Diagnostics marché du travail (5 gouvernorats)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 76.69999694824219%\n    💬  ✓ diagnostic marché du travail ✓ Tunisie\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Formulation de la Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : MFPE / OIT\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 55.599998474121094%\n    💬  ✓ emploi ✓ stratégie nationale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Actualisation Stratégie Nationale pour l’Emploi\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : OIT / MFPE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 30.0%\n    💬  ✓ emploi ✓ stratégie nationale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Analyse des besoins dans le secteur des TIC\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Education For Employment\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 25.299999237060547%\n    💬  ✓ besoins secteur TIC ✓ Tunisie\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Évaluation sectorielle TIC – sélection programme\n\n    🌍  Pays        : MENA\n    🏢  Client      : EFE\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 34.099998474121094%\n    💬  ✓ évaluation secteur TIC ✓ programme\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Actualisation des plans d’études des filières STEM\n\n    🌍  Pays        : Nigeria\n    🏢  Client      : IDICE\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 51.70000076293945%\n    💬  ✓ études STEM ✓ filières\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Étude sectorielle dattes algériennes\n\n    🌍  Pays        : Algérie\n    🏢  Client      : IFC\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 32.0%\n    💬 \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Benchmark talents énergies renouvelables\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : GIZ KSA\n    🏷️   Secteur     : Energy & Mining\n    📊  Pertinence  : 16.5%\n    💬  ✓ talents ✓ énergies renouvelables\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence stratégique pour l’acquisition d’un acteur dans la formation professionnelle au Moyen-Orient\n\n    🌍  Pays        : Moyen-Orient\n    🏢  Client      : Fonds d’investissement\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 14.899999618530273%\n    💬  ✓ acquisition formation professionnelle\n\n\n\nQue recherchez-vous dans un projet de diagnostic du marché du travail ?",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.2,
+          "justification": "Certains projets sont pertinents (diagnostic marché du travail), mais beaucoup sont liés à l'emploi en général ou à des secteurs spécifiques sans lien direct avec le diagnostic."
+        },
+        "complétude": {
+          "score": 0.4,
+          "justification": "10 projets sont listés, ce qui est un bon nombre. Cependant, la pertinence de certains projets est faible."
+        },
+        "format": {
+          "score": 0.8,
+          "justification": "La réponse est structurée avec des titres clairs et des informations organisées par catégories. Facile à lire."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Pas d'information inventée apparente."
+        },
+        "score_global": 0.3,
+        "commentaire": "Le chatbot fournit une liste de projets, mais la pertinence est faible pour la majorité. Il faudrait affiner les critères de recherche pour obtenir des résultats plus précis."
+      }
+    },
+    {
+      "question": "Avons-nous travaillé sur des projets de due diligence commerciale ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence commerciale sur entreprises boissons et snacks\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Admaius\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 100.0%\n    💬  ✓ due diligence commerciale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence fusion outsourcing (Maroc)\n\n    🌍  Pays        : Maroc\n    🏢  Client      : SPE AIF1 LP\n    🏷️   Secteur     : Services & Industries manufacturières\n    📊  Pertinence  : 99.5999984741211%\n    💬  ✓ due diligence fusion\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence acquisition entreprise tomate\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : SICAM / DPI\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 88.5%\n    💬  ✓ due diligence acquisition\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence commerciale dans les industries du papier et du carton\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Confidentiel\n    🏷️   Secteur     : Services & Industries manufacturières\n    📊  Pertinence  : 73.4000015258789%\n    💬  ✓ due diligence commerciale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence commerciale pour l’acquisition d’un acteur régional dans le secteur cosmétique et des soins personnels\n\n    🌍  Pays        : Région MENA\n    🏢  Client      : Confidentiel\n    🏷️   Secteur     : Services & Industries manufacturières\n    📊  Pertinence  : 72.4000015258789%\n    💬  ✓ due diligence commerciale acquisition\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Due diligence commerciale sur un acteur de conserves de thon\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : EKUITY Capital\n    🏷️   Secteur     : Agriculture & Agribusiness\n    📊  Pertinence  : 60.0%\n    💬  ✓ due diligence commerciale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n\n\nAvez-vous besoin d'informations supplémentaires sur ces projets ?",
+      "judge_result": {
+        "pertinence": {
+          "score": 1.0,
+          "justification": "Les projets listés sont tous liés à la due diligence commerciale."
+        },
+        "complétude": {
+          "score": 0.5,
+          "justification": "10 projets semblent un bon début, mais il est difficile de juger si c'est suffisant sans connaître la taille du portefeuille du chatbot."
+        },
+        "format": {
+          "score": 1.0,
+          "justification": "La réponse est structurée et lisible grâce à l'utilisation des puces et des champs clés (Pays, Client, Secteur, Pertinence)."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée semble être présente dans la réponse."
+        },
+        "score_global": 0.75,
+        "commentaire": "La réponse est globalement bonne et pertinente. Cependant, il manque des informations pour évaluer pleinement la complétude de la réponse."
+      }
+    },
+    {
+      "question": "Quels projets avons-nous réalisés en Arabie Saoudite ?",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Développement d’un concept de fonds arabe d’entrepreneuriat pour les petites et moyennes entreprises\n\n    🌍  Pays        : KSA\n    🏢  Client      : Confidentiel\n    🏷️   Secteur     : Enseignement, Emploi & Entrepreneuriat\n    📊  Pertinence  : 100.0%\n    💬  ✓ Enseignement, Emploi & Entrepreneuriat ✓ KSA \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Mise en place d’un système de qualité pour les services publics sociaux\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Ministère RH & Dév. Social (KSA)\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 93.30000305175781%\n    💬  ✓ KSA ✓ Développement socio-économique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Création de la NHC (National Housing Company – Arabie Saoudite)\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Ministère du Logement\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 89.30000305175781%\n    💬  ✓ KSA ✓ Développement socio-économique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Revue stratégie Midwam – tech immersives\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Midwam\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 84.5%\n    💬  ✓ KSA ✓ TIC & innovation\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Définition stratégique et opérationnelle d’un centre de recherches et de développement économique\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Ministère de l’Economie et de la planification\n    🏷️   Secteur     : Développement socio-économique\n    📊  Pertinence  : 66.30000305175781%\n    💬  ✓ KSA ✓ Développement socio-économique\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Structuration et lancement d'un nouveau fonds d'investissement domestique dédié au secteur du tourisme et des loisirs\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Groupe NAZER\n    🏷️   Secteur     : Tourisme & Culture\n    📊  Pertinence  : 36.0%\n    💬  ✓ KSA ✓ Tourisme & Culture\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n\n\nY a-t-il d'autres critères à prendre en compte pour affiner la recherche ?",
+      "judge_result": {
+        "pertinence": {
+          "score": 1.0,
+          "justification": "Tous les projets listés sont effectivement réalisés en Arabie Saoudite."
+        },
+        "complétude": {
+          "score": 0.5,
+          "justification": "Le nombre de projets (10) semble pertinent, mais il manque d'informations pour juger si c'est exhaustif."
+        },
+        "format": {
+          "score": 1.0,
+          "justification": "La réponse est structurée avec des titres clairs et des informations organisées par catégories, facilitant la lecture."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée semble présente dans les projets listés."
+        },
+        "score_global": 0.75,
+        "commentaire": "La réponse est globalement satisfaisante avec une pertinence et un format excellents. Cependant, il manque d'informations pour évaluer la complétude de la liste des projets."
+      }
+    },
+    {
+      "question": "Donnez-moi des références sur la transformation digitale et les fintechs.",
+      "answer": "J'ai trouvé 10 projet(s) correspondant à votre recherche :\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Conception et lancement du cycle certifiant sur la transformation digitale et les fintechs\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Académie Banques et Finance\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 100.0%\n    💬  ✓ transformation digitale ✓ fintechs\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Revue stratégie filiale transformation digitale\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : Mejda Tunisie\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 75.4000015258789%\n    💬  ✓ transformation digitale\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Cadre compétences numériques – Congo\n\n    🌍  Pays        : Congo\n    🏢  Client      : Ministère des Postes, des télécommunications et de l'économie numérique/ BM\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 55.79999923706055%\n    💬  ✓ compétences numériques ✓ TIC\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Plan stratégique pour acteur NTIC\n\n    🌍  Pays        : Région MENA\n    🏢  Client      : Entreprise spécialisée dans les NTIC\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 40.599998474121094%\n    💬  ✓ NTIC ✓ TIC\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Revue stratégie Midwam – tech immersives\n\n    🌍  Pays        : Arabie Saoudite\n    🏢  Client      : Midwam\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 39.79999923706055%\n    💬  ✓ tech immersives ✓ TIC\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌  Développement d'une plateforme de e-commerce (OFCT)\n\n    🌍  Pays        : Tunisie\n    🏢  Client      : USAID\n    🏷️   Secteur     : TIC & innovation\n    📊  Pertinence  : 31.299999237060547%\n    💬  ✓ e-commerce ✓ plateforme ✓ TIC\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nAvez-vous besoin de plus d'informations sur ces projets ?\n\n\n\n",
+      "judge_result": {
+        "pertinence": {
+          "score": 0.6,
+          "justification": "Certains projets sont pertinents (transformation digitale, fintechs), mais d'autres sont trop larges (compétences numériques, e-commerce)"
+        },
+        "complétude": {
+          "score": 0.4,
+          "justification": "10 projets sont mentionnés, mais la pertinence de certains est faible. Plus de projets pertinents seraient souhaitable."
+        },
+        "format": {
+          "score": 0.8,
+          "justification": "La réponse est structurée avec des informations claires et lisibles. L'utilisation des émojis peut être améliorée pour une meilleure clarté."
+        },
+        "hallucination": {
+          "score": 0.0,
+          "justification": "Aucune information inventée détectée."
+        },
+        "score_global": 0.5,
+        "commentaire": "Le chatbot fournit des références avec un niveau de pertinence variable. Il manque de projets réellement liés aux fintechs et à la transformation digitale. Le format est clair et lisible."
+      }
+    }
+  ]
+}
